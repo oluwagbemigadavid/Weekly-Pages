@@ -204,6 +204,9 @@ body {
                 overflow: hidden;
                 .extra, .extra1 {
                     position: absolute;
+                    background: var(--white_100);
+                    width: fit-content;
+                    height: fit-content;
                 }
                 .window {
                     background: red;
@@ -221,6 +224,7 @@ body {
                         object-fit: cover;
                     }
                 }
+                .extra
             }
 
         }
