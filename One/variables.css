@@ -22,6 +22,8 @@
     --text_primary: var(--grey_700);
     --text_secondary: var(--grey_900);
     --nav_text: var(--grey_800);
-    --logo_text: var(--grey_900)
+    --logo_text: var(--grey_900);
+    --border_color: var(--grey_400);
+    --placeholder: var(--grey_500);
     
 }

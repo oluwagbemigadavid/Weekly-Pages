@@ -10,12 +10,23 @@ body {
  a {
     text-decoration: none;
  }
+
+ button {
+    color: var(--white_100);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    background: var(--primary);
+    border-radius: 12px;
+}
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: content-box;
-    padding: 0 16px;
+    padding: 0 64px;
 
     .logo {
         padding: 24px 0;
@@ -126,33 +137,76 @@ body {
                 border-radius: 50%;
             }
         }
-        button {
-            color: var(--white_100);
-            font-size: 12px;
-            font-weight: 600;
-            padding: 8px 20px;
-            outline: none;
-            border: none;
-            background: var(--primary);
-            border-radius: 12px;
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border_color);
+    padding: 4px 4px 4px 24px;
+    border-radius: 18px;
+    width: fit-content;
+    gap: 5px;
+    svg {
+        width: 16px;
+        height: 16px;
+        path {
+            fill: var(--placeholder);
         }
+    }
+    input {
+        border: none;
+        background: none;
+        width: 250px;
+    }
+    :focus {
+        outline: none;
+    }
+    ::placeholder {
+        color: var(--placeholder)
+    }
+    button {
+        padding: 12px 28px;
     }
 }
 
 .hero {
     .container {
+        margin-top: 96px;
         display: flex;
         align-items: center;
-        padding: 0 16px;
+        padding: 0 64px;
+        width: 100%;
         .left {
+            width: 50%;
             .title {
+                max-width: 453px;
                 font-size: 64px;
+                font-weight: 400;
                 color: var(--text_secondary);
             }
+            .text {
+                max-width: 453px;
+                margin: 32px 0 56px;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .contact { max-width: 453px;}
+        }
+        .right {
+            width: 50%;
+            position: relative;
+            .container {
+                overflow: hidden;
+                width: 100px;
+            }
+            .extra, .extra1 {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
         }
     }
-}
-
-img {
-    width: 100px
 }
