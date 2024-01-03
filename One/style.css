@@ -25,9 +25,13 @@ body {
             gap: 5px;
             font-size: 25px;
             color: var(--logo_text);
+            font-weight: 900;
         }
         svg {
-            width: 36px
+            width: 36px;
+            path {
+                fill: var(--primary)
+            }
         }
     }
 
@@ -55,8 +59,11 @@ body {
             svg {
                 width: 16px;
                 height: 16px;
-                path {
+                 path {
                     fill: var(--grey_600);
+                }
+                g {
+                    stroke: var(--primary)
                 }
             }
             .switch {
@@ -119,5 +126,33 @@ body {
                 border-radius: 50%;
             }
         }
+        button {
+            color: var(--white_100);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 8px 20px;
+            outline: none;
+            border: none;
+            background: var(--primary);
+            border-radius: 12px;
+        }
     }
+}
+
+.hero {
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        .left {
+            .title {
+                font-size: 64px;
+                color: var(--text_secondary);
+            }
+        }
+    }
+}
+
+img {
+    width: 100px
 }
