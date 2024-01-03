@@ -1,0 +1,31 @@
+:root {
+    --grey_900: #121519;
+    --grey_800: #434A57;
+    --grey_700: #576071;
+    --grey_600: #858C97;
+    --grey_500: #B4BBC3;
+    --grey_400: #D7DDE2;
+    --grey_300: #E3E9EF;
+    --grey_200: #EDF1F5;
+    --grey_100: #F6F9FC;
+    --primary: #448C74;
+    --warning: #EDCB50;
+    --white_100: #fff;
+    --white_100: rgba(225, 225, 225, 0.5);
+    --white_50: rgba(225, 225, 225, 0.4);
+    --white_30: rgba(225, 225, 225, 0.3);
+
+
+
+    /* ******* Body Varialbes Here ******* */
+    --bg: var(--grey_100);
+    --text_primary: var(--grey_700);
+    --text_secondary: var(--grey_900);
+    --nav_text: var(--grey_800);
+    
+}
+
+body {
+    background: var(--bg);
+    color: var(--text_primary);
+}
