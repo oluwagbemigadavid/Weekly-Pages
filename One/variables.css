@@ -22,10 +22,6 @@
     --text_primary: var(--grey_700);
     --text_secondary: var(--grey_900);
     --nav_text: var(--grey_800);
+    --logo_text: var(--grey_900)
     
-}
-
-body {
-    background: var(--bg);
-    color: var(--text_primary);
 }
