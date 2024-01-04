@@ -205,13 +205,14 @@ body {
                 .extra, .extra1 {
                     position: absolute;
                     background: var(--white_100);
-                    width: fit-content;
                     height: fit-content;
+                    width: 145px;
+                    padding: 10px;
+                    border-radius: 10px;
                 }
                 .window {
-                    background: red;
                     width: 80%;
-                    margin: 0 auto;
+                    margin: 0 20% 0 0;
                     height: 510px;
                     border-top-right-radius: 120px;
                     border-top-left-radius: 18px;
@@ -224,7 +225,65 @@ body {
                         object-fit: cover;
                     }
                 }
-                .extra
+                .extra {
+                    left: -72.5px;
+                    top: 69px;
+                    svg {
+                        width: 150px;
+                        height: 20px;
+                        margin-left: -20px;
+                        transform: scale(.1);
+                    }
+                    p {
+                        span {color: var(--primary);}
+                    }
+                }
+                .extra1 {
+                    right: 72.5px;
+                    display: grid;
+                    gap: 3px;
+                    h4 { color: var(--primary); font-weight: 900; font-size: 16px;}
+                    p, h5 {
+                        font-size: 14px;
+                    }
+                    bottom: 22px;
+                    z-index: 1;
+
+                    span {
+                        width: 10px;
+                        height: 10px;
+                        background: var(--primary);
+                        border-radius: 50%;
+                        position: absolute;
+                        top: -30px;
+                        left: 67.5px;
+                    }
+
+                    span::before {
+                        content: '';
+                        position: absolute;
+                        height: 150%;
+                        width: 150%;
+                        background: var(--white_100);
+                        z-index: -1;
+                        left: -2.5px;
+                        top: -2.5px;
+                        border-radius: 50%;
+                    }
+
+                }
+                
+                .extra1::after {
+                    content: "";
+                    width: 50px;
+                    height: 50px;
+                    left: calc(50% - 25px);
+                    transform: rotate(45deg);
+                    top: 0;
+                    position: absolute;
+                    background: var(--white_100);
+                    z-index: -1;
+                }
             }
 
         }
