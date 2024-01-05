@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+   .nav {
+    .menu {
+        position: absolute;
+        display: none;
+    }
+   }
+   .hero {
+    .container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 40px;
+        padding: 0 24px;
+        margin-top: 64px;
+        .left, .right {
+            width: 100%;
+        }
+        .right {
+            .right-container {
+                .window {
+                    width: 80%;
+                    margin: 0;
+                }
+                .extra {
+                    left: unset;
+                    right: 0;
+                }
+                .extra1 {
+                    right: 0;
+                }
+            }
+        }
+    }
+   }
+   .figures {
+    padding: 0 24px;
+    .figures_container {
+        flex-direction: column;
+    }
+   }
+   .services {
+    width: 100%;
+    .services_container {
+        padding: 80px 24px;
+        .services_card1 {
+            .service_card {
+                .service_card_img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+   .indust {
+    width: 100%;
+    .services_container {
+        .services_card1 {
+            flex-direction: column;
+            .service_card {
+                .service_card_img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+   }
+  }
