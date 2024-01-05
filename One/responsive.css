@@ -123,4 +123,22 @@
         }
     }
    }
+   .companies {
+    .companies_logos, .companies_logos1 {
+        gap: 10px;
+        .companies_logos_logo {
+            width: fit-content;
+            height: fit-content;
+            background: var(--logos_bg);
+            padding: 8px 18px;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            svg {
+                width: 80px;
+                height: 50px;
+            }
+        }
+    }
+   }
   }

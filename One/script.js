@@ -198,8 +198,8 @@ logos.forEach((logo) => {
     lv1.innerHTML = (logo)
 
     lv1.classList.add('companies_logos_logo');
-
+    const lv2 = lv1.cloneNode(true);
     renderlogos.appendChild(lv1); 
-    renderlogos1.appendChild(lv1); 
+    renderlogos1.appendChild(lv2); 
 })
     
