@@ -451,6 +451,8 @@ h2 {
         gap: 24px;
         max-width: 100%;
         overflow: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
         margin-top: 40px;
         .companies_logos_logo {
             width: fit-content;
