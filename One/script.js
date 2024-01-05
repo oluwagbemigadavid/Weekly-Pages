@@ -202,4 +202,46 @@ logos.forEach((logo) => {
     renderlogos.appendChild(lv1); 
     renderlogos1.appendChild(lv2); 
 })
-    
+   
+const man = [
+    {
+        no: '01',
+        title: 'Formulation of the problem',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        no: '02',
+        title: 'Formulation of the problem',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        no: '03',
+        title: 'Formulation of the problem',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        no: '04',
+        title: 'Formulation of the problem',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+]
+
+const renderMan = document.querySelector('.man_right')
+
+man.forEach((item) => {
+    const lv1 = document.createElement('div');
+    const lv2 = document.createElement('h5');
+    const lv3 = document.createElement('h4');
+    const lv4 = document.createElement('p');
+
+    lv1.classList.add('man_right_cont');
+    lv2.textContent = item.no;
+    lv3.textContent = item.title;
+    lv4.textContent = item.desc;
+
+    lv1.appendChild(lv2);
+    lv1.appendChild(lv3);
+    lv1.appendChild(lv4);
+    renderMan.appendChild(lv1); 
+})
+
