@@ -242,6 +242,157 @@ man.forEach((item) => {
     lv1.appendChild(lv2);
     lv1.appendChild(lv3);
     lv1.appendChild(lv4);
-    renderMan.appendChild(lv1); 
+    renderMan.appendChild(lv1);
 })
 
+const testimonials = [
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Khris Angles',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+]
+
+const renderTestimonials = document.querySelector('.test_cont_te')
+
+testimonials.forEach((card) => {
+    renderTestimonials.innerHTML += `
+    <div class="test_card">
+        <div class="test_card_img">
+            <img src="${card.src}" alt="">
+            <h4>${card.name}</h4>
+            <p>${card.role}</p>
+        </div>
+        <div class="test_card_text">
+            <p>${card.desc}</p>
+        </div>
+    </div>
+    `
+})
