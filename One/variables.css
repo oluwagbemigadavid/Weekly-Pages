@@ -25,5 +25,6 @@
     --logo_text: var(--grey_900);
     --border_color: var(--grey_400);
     --placeholder: var(--grey_500);
+    --figures_cont_bg: var(--white_100);
     
 }
