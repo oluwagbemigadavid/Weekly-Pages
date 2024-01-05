@@ -394,7 +394,6 @@ const testimonials = [
 
 const renderTestimonials = document.querySelector('.test_cont_te');
 
-const screenContainer = document.createElement('div');
 
 for (let i = 0; i < testimonials.length; i += 6) {
     const screenDiv = document.createElement('div');

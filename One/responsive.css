@@ -183,4 +183,28 @@
         }
     }
    }
+   .test {
+    margin-top: 40px;
+    .test_cont {
+        padding: 40px 24px;
+        h2 {margin-bottom: 20px;}
+        .test_cont_te {
+            flex-direction: column;
+            width: 100%;
+            .screen {
+                flex-direction: column;
+                .pair {
+                    width: 100%;
+                }
+                .test_card {
+                    width: 100%;
+                    padding: 20px;
+                }
+            }
+        }
+        .radio {
+            display: none;
+        }
+    }
+   }
   }
