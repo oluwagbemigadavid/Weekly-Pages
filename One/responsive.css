@@ -207,4 +207,23 @@
         }
     }
    }
+   .cs {
+    margin-top: 40px;
+    .cs_cont {
+        padding: 40px 24px;
+        h2 {
+            margin-bottom: 20px;
+            font-size: 36px; 
+        }
+        .cs_studies {
+            flex-direction: column;
+            .study {
+                img {
+                    z-index: 1;
+                    opacity: .3;
+                }
+            }
+        }
+    };
+   }
   }

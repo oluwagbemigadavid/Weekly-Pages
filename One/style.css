@@ -675,6 +675,8 @@ h2 {
     margin-top: 160px;
     .cs_cont {
         padding: 80px 110px;
+        display: grid;
+        justify-items: center;
         h2 {
             margin-bottom: 40px;
             text-align: center;
@@ -735,7 +737,24 @@ h2 {
                         stroke:var(--primary);
                     }
                 }
+                img {
+                    width: 378px;
+                    height: 356px;
+                    right: 0px;
+                    bottom: 0;
+                    transform: rotateX(180deg)
+                }
             }
+        }
+
+        button {
+            background: transparent;
+            outline: 1px solid var(--primary);
+            color: var(--primary);
+            padding: 12px 28px;
+            border-radius: 16px;
+            margin-top: 42.7px;
+            width: fit-content;
         }
        
     };
