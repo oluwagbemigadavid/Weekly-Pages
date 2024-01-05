@@ -27,6 +27,9 @@
         }
     }
     .ctas {
+        button {
+            display: none;
+        }
         .hamburger {
             display: flex;
             svg {
