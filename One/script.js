@@ -254,9 +254,33 @@ const testimonials = [
     },
     {
         src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
+        name: 'Kotah Khan',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Ofer coloumbus',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Mammi Seun',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Olofin Aduragbemi',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
         src: '/assets/pngwing.com (1).png',
@@ -266,9 +290,33 @@ const testimonials = [
     },
     {
         src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
+        name: 'Kotah Khan',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Ofer coloumbus',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Mammi Seun',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Olofin Aduragbemi',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
         src: '/assets/pngwing.com (1).png',
@@ -278,9 +326,33 @@ const testimonials = [
     },
     {
         src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
+        name: 'Kotah Khan',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Ofer coloumbus',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Mammi Seun',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Olofin Aduragbemi',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
         src: '/assets/pngwing.com (1).png',
@@ -290,109 +362,85 @@ const testimonials = [
     },
     {
         src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
+        name: 'Kotah Khan',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Ofer coloumbus',
+        role: 'Supernatural Freak',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
+    },
+    {
+        src: '/assets/pngwing.com (1).png',
+        name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
         src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
+        name: 'Mammi Seun',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
         src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
+        name: 'Olofin Aduragbemi',
         role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
-    },
-    {
-        src: '/assets/pngwing.com (1).png',
-        name: 'Khris Angles',
-        role: 'Supernatural Freak',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
 ]
 
-const renderTestimonials = document.querySelector('.test_cont_te')
+const renderTestimonials = document.querySelector('.test_cont_te');
 
-testimonials.forEach((card) => {
-    renderTestimonials.innerHTML += `
-    <div class="test_card">
-        <div class="test_card_img">
-            <img src="${card.src}" alt="">
-            <h4>${card.name}</h4>
-            <p>${card.role}</p>
-        </div>
-        <div class="test_card_text">
-            <p>${card.desc}</p>
-        </div>
-    </div>
-    `
-})
+const screenContainer = document.createElement('div');
+
+for (let i = 0; i < testimonials.length; i += 6) {
+    const screenDiv = document.createElement('div');
+    screenDiv.classList.add('screen');
+
+    for (let j = i; j < i + 6 && j < testimonials.length; j += 2) {
+        const pairDiv = document.createElement('div');
+        pairDiv.classList.add('pair');
+
+        for (let k = j; k < j + 2 && k < testimonials.length; k++) {
+            const card = testimonials[k];
+
+            const innerDiv = document.createElement('div');
+            const innerDiv1 = document.createElement('div');
+            const innerDiv2 = document.createElement('div');
+            innerDiv.classList.add('test_card');
+            innerDiv1.classList.add('test_card_avatar');
+            innerDiv2.classList.add('test_card_avatar_text');
+
+            const img = document.createElement('img');
+            img.src = card.src;
+            img.alt = '';
+
+            const h4 = document.createElement('h4');
+            h4.textContent = card.name;
+
+            const p = document.createElement('p');
+            p.textContent = card.role;
+
+            innerDiv1.appendChild(img);
+            innerDiv2.appendChild(h4);
+            innerDiv2.appendChild(p);
+
+            const pDesc = document.createElement('p');
+            pDesc.textContent = card.desc;
+
+            innerDiv1.appendChild(innerDiv2);
+            innerDiv.appendChild(innerDiv1);
+            innerDiv.appendChild(pDesc);
+
+            pairDiv.appendChild(innerDiv);
+        }
+
+        screenDiv.appendChild(pairDiv);
+    }
+
+    renderTestimonials.appendChild(screenDiv);
+}
+
