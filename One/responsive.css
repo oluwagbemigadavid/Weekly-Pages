@@ -58,9 +58,12 @@
     line-height: 30px;
    }
    .contact {
-    padding: 2px 2px 2px 12px;
+    padding: 4px 4px 4px 12px;
     input {
         width: 200px;
+    }
+    button {
+        padding: 8px 24px
     }
    }
    .hero {
@@ -225,5 +228,22 @@
             }
         }
     };
+   }
+   .advert {
+    .advert_cont {
+        padding: 80px 24px;
+        flex-direction: column;
+        .left {
+            text-align: center;
+        }
+        .right {
+            gap:40px;
+        }
+        .illustration {
+            top: 55%;
+            bottom: unset;
+            left: calc(50% - 75px);
+        }
+    }
    }
   }
