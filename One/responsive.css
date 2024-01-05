@@ -1,8 +1,63 @@
 @media only screen and (max-width: 600px) {
    .nav {
+    padding: 0 24px;
     .menu {
         position: absolute;
         display: none;
+    }
+    .menu.active {
+        display: flex;
+        background: var(--bg);
+        flex-direction: column;
+        gap: 10px;
+        top: 0;
+        padding-top: 40px;
+        width: calc(100% - 48px);
+        z-index: 99;
+            gap: 0;
+        a {
+            border-bottom: 1px solid var(--text_secondary);
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .mobile-menu-btn {
+            display: block;
+            margin: 20px 0;
+        }
+    }
+    .ctas {
+        .hamburger {
+            display: flex;
+            svg {
+                width: 24px;
+                height: 24px;
+                transform: rotateY(180deg);
+            }
+        }
+        .hamburger.active {
+            position: relative;
+            z-index: 999;
+        }
+    }
+   }
+   button {
+    font-size: 12px !important;
+    padding: 4px 16px; 
+    line-height: 18px;
+   }
+   p {
+    font-size: 14px !important;
+    line-height: 20px;
+   }
+   h3 {
+    font-size: 20px;
+    line-height: 30px;
+   }
+   .contact {
+    padding: 2px 2px 2px 12px;
+    input {
+        width: 200px;
     }
    }
    .hero {
@@ -36,12 +91,14 @@
     padding: 0 24px;
     .figures_container {
         flex-direction: column;
+        text-align: center;
     }
    }
    .services {
+    margin-top: 40px;
     width: 100%;
     .services_container {
-        padding: 80px 24px;
+        padding: 40px 24px;
         .services_card1 {
             .service_card {
                 .service_card_img {
@@ -52,7 +109,6 @@
     }
 }
    .indust {
-    width: 100%;
     .services_container {
         .services_card1 {
             flex-direction: column;

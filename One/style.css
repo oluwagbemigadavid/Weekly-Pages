@@ -64,6 +64,9 @@ h3 {
             font-weight: 500;
             line-height: 150%;
         }
+    .mobile-menu-btn {
+            display: none;
+        }
     }
 
     .ctas {
@@ -73,6 +76,10 @@ h3 {
         button {
             font-size: 12px;
             line-height: 20px;
+            display: none;
+        }
+        .hamburger {
+            display: none;
         }
         .theme-switch {
             display: flex;
@@ -326,21 +333,21 @@ p {
     font-weight: 400px;
 }
 
+.services_title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+        gap: 16px;
+    h2 {
+        color: var(--text_secondary);
+        font-size: 48px;
+        line-height: 52px;
+    }
+}
 .services {
     margin-top: 160px;
     .services_container {
         padding: 80px 110px;
-        .services_title {
-            display: grid;
-            justify-content: center;
-            text-align: center;
-                gap: 16px;
-            h2 {
-                color: var(--text_secondary);
-                font-size: 48px;
-                line-height: 52px;
-            }
-        }
         .services_cards {
             display: flex;
             flex-wrap: wrap;
@@ -432,6 +439,29 @@ p {
                 ul, li {
                     margin: 0 24px;
                 }
+            }
+        }
+    }
+}
+
+.companies {
+    .companies_logos, .companies_logos1 {
+        display: flex;
+        gap: 24px;
+        max-width: 100%;
+        overflow: scroll;
+        margin-top: 40px;
+        .companies_logos_logo {
+            width: fit-content;
+            height: fit-content;
+            background: var(--logos_bg);
+            padding: 8px 18px;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            svg {
+              width: 140px;
+              height: 100px;
             }
         }
     }
