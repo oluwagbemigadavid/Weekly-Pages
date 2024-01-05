@@ -246,4 +246,17 @@
         }
     }
    }
+
+   .footer .footer_cont {
+        padding: 80px 24px;
+        flex-direction: column;
+        gap: 50px;
+        .two {
+            flex-wrap: wrap;
+            .left {
+                flex: 1 0 45%;
+                width: 50%;
+            }
+        };
+   }
   }

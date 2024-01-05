@@ -817,6 +817,7 @@ h2 {
         .one {
             display: flex;
             gap: 36px;
+            align-items: flex-start;
             svg {
                 width: 36px;
                 path {
