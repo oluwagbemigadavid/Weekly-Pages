@@ -225,6 +225,9 @@ h3 {
                     width: 145px;
                     padding: 10px;
                     border-radius: 10px;
+                    p, h5 {
+                        color: var(--grey_700);
+                    }
                 }
                 .window {
                     width: 80%;
@@ -251,7 +254,7 @@ h3 {
                         transform: scale(.1);
                     }
                     p {
-                        span {color: var(--primary);}
+                        span {color: var(--grey_500);}
                     }
                 }
                 .extra1 {
@@ -421,6 +424,7 @@ h2 {
                 background: var(--figures_cont_bg);
                 border-radius: 36px;
                 padding-bottom: 40px;
+                max-width: 416px;
                 .service_card_img {
                     width: 416px;
                     height: 298px;
@@ -730,7 +734,7 @@ h2 {
                 }
             }
             .study:nth-child(2n) {
-                background:lightgrey;
+                background: var(--cs);
                 > * {
                     color: var(--primary);
                 }
