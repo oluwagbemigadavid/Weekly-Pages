@@ -1,0 +1,188 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; 
+    }
+    .container {
+        margin: 0px 24px;
+    }
+    button {
+        padding: 10px 30px;
+        height: fit-content;
+        border: 1px solid var(--btn_border);
+    }
+    h2 {font-size: 24px;}
+    .nav {
+        .container {
+            margin-top: 24px;
+            .logo {
+                font-size: 20px;
+            }
+            .menu {
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                background: var(--bg);
+                width: 100%;
+                gap: 0;
+                top: 0;
+                left: 0;
+                a {
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-bottom: 1px solid var(--text_primary);
+                    width: 100%;
+                }
+                .mobile.cta {
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px 0;
+                    button:nth-child(2n) {
+                        padding: 10px 30px;
+                        height: fit-content;
+                    }
+                    width: 100%;
+                    border-bottom: 1px solid var(--text_primary);
+                }
+            }
+            .menu.active {
+                display: flex;
+            }
+            .cta {
+                display: none;
+            }
+            .hamburger {
+                display: flex;
+                position: absolute;
+                right: 24px;
+                top: 0px;
+                z-index: 90;
+            }
+        }
+    }
+
+    .hero {
+        .container {
+            margin-top: 24px;
+            gap: 20px;
+            .text {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+            .left h1 {
+                font-size: 32px;
+            }
+            .right {
+                width: 100%;
+                gap: 32px;
+                .bottom {
+                    flex-direction: column;
+                    gap: 32px;
+                    p {
+                        justify-content: space-between;
+                    }
+                    button {
+                        width: fit-content;
+                    }
+                }
+            }
+            .img {
+                width: calc(100% + 48px);
+                margin-left: -24px;
+                height: 100%;
+                img {display: none;}
+                img:nth-child(2n) {display: block;}
+            }
+        }
+
+    }
+
+    .quote {
+        margin-top: 52px;
+        h2 {text-align: left;}
+    }
+
+    .divider {
+        margin: 52px 24px;
+    }
+    .collection {
+        .container {
+            margin: 0 52px;
+            flex-direction: column;
+            gap: 20px;
+            h2 {
+                width: fit-content;
+            }
+            a {
+                margin: 24px 0 0 0;
+            }
+        }
+    }
+
+    .gallery {
+        .container {
+            .card {
+                flex: 1 0 100%;
+                width: 100%;
+                h3 {margin: 24px 0 12px}
+                p{margin-bottom: 24px;}
+            }
+        }
+    }
+
+    .choose {
+        .container{
+            margin: 0 24px;
+            flex-direction: column;
+            .left {
+                width: calc(100% + 48px);
+                margin-left: -24px;
+                height: 100%;
+                img {display: none;}
+                img:nth-child(2n) {display: block;}
+            }
+            .right {
+                h2 {
+                    max-width: 170px;
+                    margin-bottom: 24px;
+                }
+                p {
+                    margin: 12px 0;
+                    overflow: unset;
+                    display:block;
+                    max-height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1000px)  {
+    .nav {
+        .container {
+            margin-top: 24px;
+            .logo {
+                font-size: 20px;
+            }
+            .menu {
+                gap: 10px;
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .hero {
+        .container {
+            .left h1 {
+                font-size: 52px;
+            }
+        }
+
+    }
+}
