@@ -13,6 +13,9 @@
         height: fit-content;
         border: 1px solid var(--btn_border);
     }
+    svg path {
+        stroke: var(--bulb)
+    }
     h2 {font-size: 24px;}
     .nav {
         .container {
@@ -61,6 +64,9 @@
                 right: 24px;
                 top: 0px;
                 z-index: 90;
+                svg path {
+                    fill: var(--bulb)
+                }
             }
         }
     }
@@ -201,3 +207,11 @@
 
     }
 }
+
+@media only screen and (min-width: 1440px) {
+   .container {
+        max-width: 1550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   }
