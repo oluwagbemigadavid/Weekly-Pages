@@ -98,7 +98,7 @@ service_cards.forEach((card, index) => {
 
 const industires_cards = [
     {
-        src: '/assets/hero-img.jpg',
+        src: '../assets/one/hero-img.jpg',
         title: 'Servies',
         bullets: [
             'ID habitasse dui habitant',
@@ -107,7 +107,7 @@ const industires_cards = [
         ]
     },
     {
-        src: '/assets/hero-img.jpg',
+        src: '../assets/one/hero-img.jpg',
         title: 'Retail',
         bullets: [
             'ID habitasse dui habitant',
@@ -116,7 +116,7 @@ const industires_cards = [
         ]
     },
     {
-        src: '/assets/hero-img.jpg',
+        src: '../assets/one/hero-img.jpg',
         title: 'Technology',
         bullets: [
             'ID habitasse dui habitant',
@@ -222,145 +222,145 @@ man.forEach((item) => {
 
 const testimonials = [
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Khris Angles',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Kotah Khan',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Ofer coloumbus',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Mammi Seun',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Olofin Aduragbemi',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Khris Angles',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Kotah Khan',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Ofer coloumbus',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Mammi Seun',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Olofin Aduragbemi',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Khris Angles',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Kotah Khan',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Ofer coloumbus',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Mammi Seun',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Olofin Aduragbemi',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Khris Angles',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Kotah Khan',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Ofer coloumbus',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Musa Rubak',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Mammi Seun',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate veritatis consequatur iusto neque excepturi, autem ipsam maxime, impedit at praesentium nostrum? Facere'
     },
     {
-        src: '/assets/pngwing.com (1).png',
+        src: '../assets/one/pngwing.com (1).png',
         name: 'Olofin Aduragbemi',
         role: 'Supernatural Freak',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestiae expedita ab. A unde optio accusantium consequatur nam quibusdam consectetur. Sapiente soluta, aperiam ad quidem placeat libero possimus omnis voluptatum labore iste odit itaque quis dolorem ipsa eum a porro aspernatur maiores quasi rem. At aperiam voluptates rerum quis esse.'
