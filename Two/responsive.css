@@ -160,6 +160,21 @@
             }
         }
     }
+
+    .footer {
+        margin-top: 52px;
+        .container {
+            flex-direction: column;
+            gap: 40px;
+            .right {
+                flex-direction: column;
+                gap: 28px;
+                .column {
+                    gap: 28px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 1000px)  {

@@ -38,6 +38,33 @@ body {
     color: var(--link_primary);
  }
 
+ .logo {
+    font-family: 'Nosifer', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+.themeBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 3px solid var(--bulb);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    svg {
+        width: 25px;
+        height: 25px;
+        path {
+            fill: var(--bulb);
+        }
+    };
+}
+
  .nav {
         position: relative;
     .container {
@@ -45,12 +72,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        .logo {
-            font-family: 'Nosifer', sans-serif;
-            font-size: 27px;
-            font-weight: 400;
-            margin-right: auto;
-        }
         .menu {
             display: flex;
             gap: 80px;
@@ -95,6 +116,7 @@ body {
                 font-size: 96px;
                 font-weight: 700;
                 font-family: 'Georgian';
+                line-height: normal;
                 color: var(--link_primary);
             }
         }
@@ -220,5 +242,47 @@ body {
             }
         }
 
+    }
+ }
+
+ .footer {
+    margin-top: 120px;
+    .container {
+        display: flex;
+        gap: 129px;
+        .left {
+            max-width: 357px;
+            p {
+                margin: 23px 0 18px;
+            }
+            .socials {
+                display: flex;
+                gap: 32px;
+                svg {cursor: pointer};
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: space-between;
+            flex: auto;
+            .column {
+                display: flex;
+                flex-direction: column;;
+                gap: 36px;
+                .input {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 3px solid var(--btn_border);
+                    padding-bottom: 20px;
+                    input {
+                        width: 100%;
+                        background-color: transparent;
+                        outline: none;
+                        border: none;
+                    }
+                }
+            }
+        }
     }
  }

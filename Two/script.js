@@ -41,3 +41,7 @@ gallery.forEach(item => {
 
     renderGallery.appendChild(lvl1)
 })
+
+function mobileMenu () {
+    document.querySelector('.menu').classList.toggle('active')
+}

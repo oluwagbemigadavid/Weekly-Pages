@@ -1,10 +1,13 @@
 :root {
     --light_white: #C0C0C0;
     --white: #fff;
-    --bg: #161616;
+    --black: #000;
+    --bg_light: #161616;
     --border_color:rgba(192, 192, 192, 0.10);
 
+    --bg: var(--bg_light);
     --text_primary: var(--light_white);
     --link_primary: var(--white);
     --btn_border: var(--border_color);
+    --bulb: var(--white);
 }
