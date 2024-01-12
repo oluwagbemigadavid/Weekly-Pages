@@ -157,10 +157,10 @@
             width: 100%;;
 
             .hero-imgs {
-                height: 600px;
+                height: 300px;
                 .hero-img {
                     img {
-                        width: 250%;
+                        width: 150%;
                         height: 100%;
                         object-fit: cover;
                     }
