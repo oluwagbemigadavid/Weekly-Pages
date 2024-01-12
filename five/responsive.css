@@ -132,6 +132,25 @@
             flex-direction: column-reverse;
         }
     }
+
+    .save .save-container {
+        height: fit-content;
+        img {
+            margin-top: 0;
+            border-radius: 18px;
+        }
+
+        .save-text {
+            position: relative;
+            margin-left: 0;
+            margin-bottom: 40px;
+            h3 {
+                color: var(--grey_900);
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
     .footer .footer_cont {
          padding: 80px 24px;
          flex-direction: column;
