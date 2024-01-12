@@ -184,11 +184,87 @@ h3 {
         width: 100%;
         overflow: hidden;
         border-radius: 16px;
+        position: relative;
         .hero-img {
             img {
                 width: 100%;
                 object-fit: cover;
             }
-        };
+        }
+        .hero-google, .hero-clients, .hero-award {
+            position: absolute;
+            z-index: 1;
+        }
+        .hero-google {
+            width: fit-content;
+            top: 0;
+            left: 0;
+            background-color: var(--bg);
+            padding: 9px 10px 9px 10px;
+            border-bottom-right-radius: 16px;
+            .hero-small-conts {
+                padding: 9px 30px 9px 10px;
+    
+            }
+            .hero-google-logo {
+                display: flex;
+                align-items: center;
+                img {
+                    width : 100px;
+                }
+                 p {
+                    margin-left: -8px;
+                    font-size: 12px;
+                 }
+            }
+            .hero-google-stars {
+                img {
+                    width: 16px;
+                }
+            }
+        }
+
+        .hero-award {
+            top: 0;
+            right: 0;
+        }
+
+        .hero-small-conts {
+            background: var(--white_100);
+            padding: 9px 12px;
+            border-radius: 16px;
+            display: flex;
+            gap:10px;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        }
+
+        .hero-clients {
+            bottom: 0;
+            right: 0;
+            background-color: var(--bg);
+            border-radius: 16px;
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 0;
+            padding: 9px 12px;
+            .hero-client-img {
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    border: 3px solid var(--bg);
+                    object-fit: cover;
+                    margin-left: -25px;
+                }
+                img:first-child {
+                    margin-left: 0;
+                }
+            }
+            .hero-client-text {
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
     }
 }
