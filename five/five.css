@@ -422,3 +422,71 @@ h3 {
         }
     }
 }
+
+.qa {
+    .qa-container {
+        margin-top: 120px;
+        display: flex;
+        gap: 72px;
+        .qa-left {
+            width: 45%;
+            .hero-imgs {
+                width: 100%;
+                overflow: hidden;
+                border-radius: 16px;
+                position: relative;
+                margin-top: 96px;
+                .hero-img {
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+        
+                .hero-small-conts {
+                    background: var(--hero-img-card);
+                    padding: 9px 12px;
+                    border-radius: 16px;
+                    display: flex;
+                    gap:10px;
+                    align-items: center;
+                    box-shadow: 0px 6px 12px -2px rgba(88, 82, 129, 0.08);
+                }
+        
+                .hero-clients {
+                    top: 0;
+                    left: 0;
+                    background-color: var(--bg);
+                    border-radius: 16px;
+                    border-bottom-left-radius: 0;
+                    border-top-right-radius: 0;
+                    padding: 9px 12px;
+                    position: absolute;
+                    z-index: 1;
+                    .hero-client-img {
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            border: 3px solid var(--bg);
+                            object-fit: cover;
+                            margin-left: -25px;
+                        }
+                        img:first-child {
+                            margin-left: 0;
+                        }
+                    }
+                    .hero-client-text {
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .qa-right {
+
+        }
+    }
+
+}
