@@ -108,6 +108,13 @@
             }
         }
     }
+    .info .info-container {
+        flex-wrap: wrap;
+        gap: 40px;
+        .info-row {
+            flex: 1 0 51%;
+        }
+    }
     .footer .footer_cont {
          padding: 80px 24px;
          flex-direction: column;
