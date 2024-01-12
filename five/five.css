@@ -271,3 +271,16 @@ h3 {
         }
     }
 }
+
+.logos {
+    .logos-container {
+        padding-top: 120px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 150px;
+        };
+    }
+}
