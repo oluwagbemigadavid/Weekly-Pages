@@ -435,7 +435,6 @@ h3 {
                 overflow: hidden;
                 border-radius: 16px;
                 position: relative;
-                margin-top: 96px;
                 .hero-img {
                     img {
                         width: 100%;
@@ -483,10 +482,72 @@ h3 {
                     }
                 }
             }
+            h4 {
+                margin: 24px 0 16px;
+                font-size: 20px;
+                line-height: 28px;
+                font-weight: 600;
+                color: var(--text_secondary);
+            }
+            button {
+                margin-top: 24px;
+            }
         }
         .qa-right {
-
+            width: 65%;
+            h2 {
+                font-size: 40px; 
+                color: var(--text_secondary);
+                line-height: 52px;
+            }
         }
+        
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    padding: 20px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    i {
+        transform: rotate(0deg);
+        transition: all .5s linear;
+    }
+}
+
+.accordion-content {
+    padding: 10px 0;
+    display: none;
+    gap: 8px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input:checked + .accordion-header {
+    color: var(--primary);
+    i {
+        transform: rotate(180deg);
+        transition: all .5s linear;
+    }
+}
+
+input:checked + .accordion-header + .accordion-content {
+    display: grid;
+}
     }
 
 }

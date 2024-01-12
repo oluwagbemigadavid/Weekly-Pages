@@ -151,6 +151,30 @@
             }
         }
     }
+    .qa .qa-container {
+        flex-direction: column-reverse;
+        .qa-left {
+            width: 100%;;
+
+            .hero-imgs {
+                height: 600px;
+                .hero-img {
+                    img {
+                        width: 250%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .qa-right {
+            width: 100%;
+            h2 {
+                font-size: 24px; 
+                line-height: 32px;
+            }
+        }
+    }
     .footer .footer_cont {
          padding: 80px 24px;
          flex-direction: column;
