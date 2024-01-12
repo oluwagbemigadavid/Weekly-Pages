@@ -50,6 +50,15 @@
             .mobile-menu-btn {
                 display: block;
                 margin: 20px 0;
+                button {
+                    font-size: 12px;
+                    line-height: 20px;
+                    padding: 8px 20px;
+                    border-radius: 12px;
+                    display: flex;
+                    gap: 4px;
+                    align-items: center;
+                }
             }
         }
         .ctas {
@@ -73,9 +82,15 @@
 
        .hero-imgs {
         height: 600px;
+        .hero-award {
+            top: 50%;
+            right: 35%;
+            text-align: center;
+            color: var(--white_100);
+        }
         .hero-img {
             img {
-                width: unset;
+                width: 250%;
                 height: 100%;
                 object-fit: cover;
             }
