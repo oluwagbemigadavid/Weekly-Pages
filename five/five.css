@@ -35,27 +35,27 @@ h3 {
     font-size: 24px;
     line-height: 36px;
 }
+    
+.logo {
+    padding: 24px 0;
+    a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 25px;
+        color: var(--logo_text);
+        font-weight: 900;
+    }
+    i {
+        color: var(--primary)
+    }
+}
 .hero {
     .nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
         box-sizing: content-box;
-    
-        .logo {
-            padding: 24px 0;
-            a {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                font-size: 25px;
-                color: var(--logo_text);
-                font-weight: 900;
-            }
-            i {
-                color: var(--primary)
-            }
-        }
     
         .menu {
             display: flex;
@@ -550,4 +550,64 @@ input:checked + .accordion-header + .accordion-content {
 }
     }
 
+}
+
+.link {
+    width: 100%;
+    background: var(--primary);
+    text-align: center;
+    padding: 24px 0;
+    margin-top: 120px;
+    p {color: var(--white_70)}
+    a {
+        color: var(--white_100);
+        text-decoration: underline;
+    };
+}
+
+.footer {
+    .footer_cont {
+        padding: 80px 110px 40px;
+        display: flex;
+        gap: 56px;
+        flex-wrap: wrap;
+        .one {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            p {
+                max-width: 306px;
+                margin: 25px 0 32px;
+            }
+            .icons {
+                display: flex;
+                gap: 24px;
+                i {
+                    color: var(--grey_800);
+                    width: 36px;
+                    height: 36px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    background-color: var(--grey_200);
+                }
+            }
+        }
+        .two {
+            flex: auto;
+            display: flex;
+            gap: 24px;
+            .left {
+                width: 196px;
+                p { margin-bottom: 8px;}
+                a { color: var(--primary); text-decoration: underline}
+            }
+        }
+        .cr {
+            span {
+                color: var(--grey_600)
+            }
+        }
+    };
 }

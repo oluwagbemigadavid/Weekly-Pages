@@ -40,6 +40,7 @@
     --placeholder: var(--grey_500);
     --figures_cont_bg: var(--white_100);
     --logos_bg: var(--grey_400);
+    --icons: var(--grey_200);
     --cs: var(--cs_bg_light);
     --cards-bg: var(--cards-light);
     --grid-bg-lines: var(--hero-bg-lines-light);
