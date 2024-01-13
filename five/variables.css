@@ -44,5 +44,6 @@
     --cs: var(--cs_bg_light);
     --cards-bg: var(--cards-light);
     --grid-bg-lines: var(--hero-bg-lines-light);
+    --lines: var(--grey_300);
     
 }
