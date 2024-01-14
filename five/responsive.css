@@ -145,7 +145,7 @@
             margin-left: 0;
             margin-bottom: 40px;
             h3 {
-                color: var(--grey_900);
+                color: var(--text_secondary);
                 line-height: 30px;
                 margin-bottom: 20px;
             }

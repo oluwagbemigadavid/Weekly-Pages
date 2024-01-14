@@ -125,9 +125,14 @@ h3 {
                      path {
                         fill: var(--grey_600);
                     }
-                    g {
-                        stroke: var(--primary)
-                    }
+                }
+                svg.active{
+                    path {
+                       fill: var(--primary);
+                   }
+                   g {
+                       stroke: var(--primary)
+                   }
                 }
                 .switch {
                     position: relative;

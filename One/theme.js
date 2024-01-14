@@ -1,6 +1,8 @@
 function changeTheme() {
     const themeBtn = document.getElementById('theme-switch')
     const theme = themeBtn.checked ? 'dark' : 'light';
+    const light = document.getElementById('light-switch');
+    const dark = document.getElementById('dark-switch');
 
     if(theme == 'dark') {
         document.body.style.setProperty('--bg', `var(--dark_bg)`);
@@ -13,6 +15,8 @@ function changeTheme() {
         document.body.style.setProperty('--figures_cont_bg', `var(--grey_900)`);
         document.body.style.setProperty('--logos_bg', `var(--white_60)`);
         document.body.style.setProperty('--cs', `var(--cs_bg_dark)`);
+        dark.classList.add('active');
+        light.classList.remove('active');
     } else if(theme == 'light') {
         document.body.style.setProperty('--bg', 'unset');
         document.body.style.setProperty('--text_primary', 'unset');
@@ -24,5 +28,7 @@ function changeTheme() {
         document.body.style.setProperty('--figures_cont_bg', 'unset');
         document.body.style.setProperty('--logos_bg', 'unset');
         document.body.style.setProperty('--cs', 'unset');
+        dark.classList.remove('active');
+        light.classList.add('active');
     }
 }
