@@ -357,6 +357,7 @@ h3 {
                 overflow: hidden;
                 border-radius: 18px;
                 img {
+                    border-radius: 18px;
                     height: 100%;
                     width: 100%;
                     object-fit: cover;;
