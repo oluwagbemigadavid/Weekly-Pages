@@ -67,15 +67,13 @@
             }
             .hamburger {
                 display: flex;
+                z-index: 999;
+                position: relative;
                 svg {
                     width: 24px;
                     height: 24px;
                     transform: rotateY(180deg);
                 }
-            }
-            .hamburger.active {
-                position: relative;
-                z-index: 999;
             }
         }
        }

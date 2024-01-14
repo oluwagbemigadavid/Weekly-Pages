@@ -37,6 +37,9 @@ h3 {
     line-height: 36px;
 }
 
+#home, #services, #reviews, #news, #faq{
+    scroll-behavior: smooth;
+}
 
 .lines-grid {
     width: 100vw;
@@ -77,10 +80,16 @@ h3 {
 }
 .hero {
     .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        box-sizing: content-box;
+        position: fixed;
+        width: 100vw;
+        opacity: 1;
+            transition: opacity .2s linear;
+        .nav-contents {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
     
         .menu {
             display: flex;
@@ -198,7 +207,7 @@ h3 {
     }
 
     .hero-container {
-        margin-top: 96px;
+        padding-top: 100px;
     }
     .display-text {
         display: grid;
