@@ -1,0 +1,49 @@
+:root {
+    --black: #000;
+    --grey_900: #121519;
+    --grey_800: #434A57;
+    --grey_700: #576071;
+    --grey_600: #858C97;
+    --grey_500: #B4BBC3;
+    --grey_400: #D7DDE2;
+    --grey_300: #E3E9EF;
+    --grey_200: #EDF1F5;
+    --grey_100: #F6F9FC;
+    --primary: #448C74;
+    --warning: #EDCB50;
+    --white_100: #fff;
+    --white_50: rgba(225, 225, 225, 0.5);
+    --white_90: rgba(225, 225, 225, 0.9);
+    --white_70: rgba(225, 225, 225, 0.7);
+    --white_60: rgba(225, 225, 225, 0.6);
+    --white_40: rgba(225, 225, 225, 0.4);
+    --white_30: rgba(225, 225, 225, 0.3);
+    --hero-bg-lines-light: #EDF1F5;
+    --hero-bg-lines-dark: rgba(255, 255, 255, 0.06);
+    --hero-img-cards-dark: #202327;
+    --cards-light: var(--grey_100);
+    --cards-dark: var(--white_30);
+    --dark_bg: rgb(25, 28, 32);
+    --cs_bg_light: rgb(228, 238, 238);
+    --cs_bg_dark: rgb(29, 39, 41);
+
+
+
+    /* ******* Body Varialbes Here ******* */
+    --bg: var(--white_100);
+    --text_primary: var(--grey_700);
+    --text_secondary: var(--grey_900);
+    --hero-img-card: var(--white_100);
+    --nav_text: var(--grey_800);
+    --logo_text: var(--grey_900);
+    --border_color: var(--grey_400);
+    --placeholder: var(--grey_500);
+    --figures_cont_bg: var(--white_100);
+    --logos_bg: var(--grey_400);
+    --icons: var(--grey_200);
+    --cs: var(--cs_bg_light);
+    --cards-bg: var(--cards-light);
+    --grid-bg-lines: var(--hero-bg-lines-light);
+    --lines: var(--grey_300);
+    
+}
