@@ -84,6 +84,7 @@ h3 {
         width: 100vw;
         opacity: 1;
             transition: opacity .2s linear;
+            z-index: 99999;
         .nav-contents {
             display: flex;
             align-items: center;

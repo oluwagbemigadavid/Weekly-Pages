@@ -3,7 +3,6 @@ let visible = false;
 const nav = document.querySelector('.nav')
 window.addEventListener('scroll', () => {
     const currentScrollY = window.scrollY
-    
     if(currentScrollY > lastScrollY) {
         nav.style.opacity =  0
     } else {
