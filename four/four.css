@@ -11,7 +11,8 @@ a {
 body {
   font-family: "Karla", sans-serif;
   font-style: normal;
-  color: var(--text_primary)
+  color: var(--text_primary);
+
 }
 
 p {
@@ -73,14 +74,14 @@ button {
 }
 
 .container {
-    padding: 0px 120px;
+    margin: 0 120px;
 }
 
 .hero {
     background-image: url('../assets/four/yoga/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg');
     background-origin: content-box;
     background-size: cover;
-    width: min(100vw, 1550px);
+    width: 100vw;
     height: min(100vh, 928px);
 
     .nav {
@@ -442,10 +443,11 @@ button {
             flex-wrap: wrap;
             justify-content: space-between;
             .train {
-                flex: 0 0 306px;
+                flex: 0 0 max(280px, 24%);
                 margin-bottom: 32px;
                 .img-cont {
                     width: 100%;
+                    max-width: 306px;
                     height: 306px;
                     overflow: hidden;
                     border-radius: 36px;
@@ -460,6 +462,86 @@ button {
                     margin: 16px 0 4px;
                 }
             }
+        }
+    };
+}
+
+.banner {
+    margin-top: 160px;
+    .banner-cont {
+        background: var(--primary);
+        border-radius: 36px;
+        display: flex;
+        height: 389px;
+        overflow: hidden;
+        .banner-left, .banner-right {
+            width: 50%;
+            position: relative;
+            .banner-bg {
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                path {
+                    fill: var(--white_100);
+                    stroke: var(--white_100);
+                }
+                z-index: 0;
+                opacity: .3;
+            }
+        }
+        .banner-left {
+            display: flex;
+            align-items: center;
+            .banner-left-cont {
+                max-width: 448px;
+                margin-left: auto;
+                margin-right: 33px;
+                p {
+                    position: relative;
+                    padding-left: 48px;
+                    display: flex;
+                    align-items: center;
+                    color: var(--white_70);
+                }
+                p::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    width: 40px;
+                    height: 2px;
+                    background: var(--white_70);
+
+                }
+                h1, button, a {
+                    color: var(--white_100);
+                }
+                h1 {
+                    margin: 8px 0 32px
+                }
+                .banner-bg {
+                    left: -20px;
+                    top: calc(50% - 100px);
+                    transform: rotate(90deg) scale(1.8);
+                }
+            }
+        }
+        .banner-right {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            img {
+                position: absolute;
+                width: 50%;
+                top: 10%;
+                object-fit: cover;
+                z-index: 3;
+            }
+            .banner-bg {
+                bottom: -20px;
+                transform: scale(3);
+            }
+
         }
     };
 }

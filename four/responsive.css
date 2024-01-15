@@ -28,7 +28,7 @@
         line-height: 22.4px;
     }
     .container {
-        padding: 0 24px;
+        margin: 0 24px;
     }
     .hero {  
         background-position: center; 
@@ -125,8 +125,9 @@
 
     .classes {
         margin-top: 120px;
+        width: 100vw;
         .classes-cont {
-            padding: 0 24px;
+            width: unset;
             .class-row {
                 flex-wrap: wrap;
                 button {
@@ -198,9 +199,41 @@
             }
         }
     }
+    
+    .banner {
+        margin-top: 120px;
+        .banner-cont {
+            flex-direction: column;
+            height: 440px;
+            .banner-left, .banner-right {
+                width: 100%;
+            }
+            .banner-left {
+                margin-top: 100px;
+                .banner-left-cont {
+                    max-width: 100%;
+                    margin-right: unset;
+                    text-align: center;
+                    p {width: 100%;}
+                    .banner-bg {
+                        transform: rotate(150deg) scale(1.2);
+                        left: -60px;
+                        top: -150px;
+                    }
+                }
+            }
+            .banner-right {
+                .banner-bg {
+                    bottom: -60px;
+                    transform: scale(1.5);
+                }
+            }
+        }
+
+    }
    }
 
-   @media only screen and (min-width: 1440px) {
+   @media only screen and (min-width: 1550px) {
     .container{
         max-width: 1550px;
         margin: 0 auto;
