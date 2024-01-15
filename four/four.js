@@ -132,6 +132,15 @@ trainers.forEach( ((bro, i) => {
 
 }))
 
+const yoga = [
+    '../assets/four/yoga/conscious-design-r6Oz7d4wl3o-unsplash.jpg',
+    '../assets/four/yoga/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
+    '../assets/four/yoga/conscious-design-893qZckG6I4-unsplash.jpg',
+    '../assets/four/yoga/dylan-gillis-YJdCZba0TYE-unsplash.jpg',
+    '../assets/four/yoga/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg',
+    '../assets/four/yoga/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg',
+]
+
 
 //register scrollTrigger 
 gsap.registerPlugin(ScrollTrigger)
