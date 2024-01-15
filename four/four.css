@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.caption {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 41.6px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36.4px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+button {
+    padding: 12px 28px;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    border: 1px solid var(--btn-border);
+    background-color: none;
+}
+
+.filled-btn button {
+    border-color: var(--btn-filled-border);
+    background: var(--primary);
+}
+
+.container {
+    padding: 0px 120px;
+}
