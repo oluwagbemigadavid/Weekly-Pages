@@ -38,18 +38,21 @@ h1 {
 h2 {
     font-size: 32px;
     line-height: 41.6px;
+    color: var(--text_secondary);
 }
 
 h3 {
     font-size: 28px;
     font-weight: 600;
     line-height: 36.4px;
+    color: var(--text_secondary);
 }
 
 h5 {
     font-size: 20px;
     font-weight: 600px;
     line-height: 28px;
+    color: var(--text_secondary);
 }
 
 button {
@@ -334,10 +337,12 @@ button {
                 width: calc(100% / 6);
                 border-color: transparent;
                 cursor: pointer;
+                transition: all 1 ease-out;
             }
             .active-class {
                 border-color: var(--primary);
                 color: var(--primary);
+                transition: all 1 ease-in;
             }
         }
         .class-cont {
@@ -353,6 +358,7 @@ button {
                 width: 20%;
                 display: flex;
                 justify-content: space-between;
+                position: relative;
                 .left{
                     width: 50%;
                     border-radius: 36px;
@@ -392,6 +398,7 @@ button {
                                 line-height:22.4px;
                                 margin: 12px 0 8px;
                                 text-align: left;
+                                color: var(--text_secondary);
                             }
                             p {
                                 margin: 0;
