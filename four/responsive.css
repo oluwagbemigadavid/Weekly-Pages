@@ -30,7 +30,8 @@
     .container {
         padding: 0 24px;
     }
-    .hero {   
+    .hero {  
+        background-position: center; 
         .nav {
             .nav-cont {
                 justify-content: space-between;
@@ -85,6 +86,20 @@
                     }
                 }
             }
+       }
+
+       .hero-cont {
+        text-align: center;
+        align-content: center;
+        h1 {
+            font-size: 80px;
+            line-height: 80px;
+        }
+        .hero-cta {
+            justify-content: center;
+            margin-top: 40px;
+        }
+
        }
 
     }
