@@ -140,6 +140,49 @@ const yoga = [
     '../assets/four/yoga/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg',
     '../assets/four/yoga/sonnie-hiles-rX8gBeg2WM0-unsplash.jpg',
 ]
+function generateRandomValues() {
+    const min = window.innerWidth < 700 ? 45 : 15;
+    const max = window.innerWidth < 700 ? 45 : 75;
+    const targetSum = 200;
+  
+    // Generate the first three values
+    let values = [];
+    let sumFirstThree = 0;
+  
+    for (let i = 0; i < 3; i++) {
+      const randomValue = Math.floor(Math.random() * (max - min + 1)) + min;
+      values.push(randomValue);
+      sumFirstThree += randomValue;
+    }
+  
+    // Generate the last three values, ensuring the total sum is at least 200
+    while (values.length < 6 || sumFirstThree + values.reduce((sum, value) => sum + value, 0) < targetSum) {
+      const randomValue = Math.floor(Math.random() * (max - min + 1)) + min;
+      values.push(randomValue);
+    }
+  
+    return values;
+  }
+  
+  const values = generateRandomValues();
+
+
+const renderYoga = document.querySelector('.more-img');
+yoga.forEach((yoga, i) => {
+    const cont = document.createElement('div');
+    const img = document.createElement('img');
+    if (window.innerWidth < 700){
+        if( i ===  Math.floor(Math.random() * 7)) cont.classList.add('insta');
+    } else {
+        if( i === 1) cont.classList.add('insta');
+    }
+    cont.classList.add('img-cont')
+    cont.style.width = values[i] + '%';
+    img.style.width = '100%'
+    img.src = yoga;
+    cont.appendChild(img);
+    renderYoga.appendChild(cont);
+})
 
 
 //register scrollTrigger 

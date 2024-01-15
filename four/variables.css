@@ -37,13 +37,14 @@
     --nav_text: var(--grey_800);
     --figures_cont_bg: var(--grey_100);
     --pricing: var(--grey_100);
+    --footer: var(--grey_600);
+    --footer_icon: var(--grey_200);
 
 
     --hero-img-card: var(--white_100);
     --logo_text: var(--grey_900);
     --border_color: var(--grey_400);
     --placeholder: var(--grey_500);
-    --logos_bg: var(--grey_400);
     --cs: var(--cs_bg_light);
     --cards-bg: var(--cards-light);
     --grid-bg-lines: var(--hero-bg-lines-light);

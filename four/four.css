@@ -81,7 +81,6 @@ button {
     background-image: url('../assets/four/yoga/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg');
     background-origin: content-box;
     background-size: cover;
-    width: 100vw;
     height: min(100vh, 928px);
 
     .nav {
@@ -276,7 +275,6 @@ button {
 
 .about {
     margin-top: 160px;
-    width: 100vw;
     overflow: hidden;
 
     .about-text {
@@ -336,7 +334,7 @@ button {
         display: flex;
         flex-direction: column;
         text-align: center;
-        overflow: scroll;
+        overflow: hidden;
         width: 100%;
         h1 {
             margin-bottom: 16px;
@@ -609,3 +607,142 @@ button {
     };
 }
 
+.more {
+    margin-top: 160px;
+    .more-cont {
+        text-align: center;
+        overflow: hidden;
+        .more-img {
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            .img-cont {
+                height: 306px;
+                overflow: hidden;
+                border-radius: 36px;
+                img {
+                    height: 100%;
+                    object-fit: cover
+                }
+            }
+
+            .insta {
+                position: relative;
+                cursor: pointer;
+            }
+
+            .insta::after {
+                content: '\f16d';
+                font-family: 'Font Awesome 5 Brands';
+                font-weight: 900;
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: rgba(0, 0, 0, 0.5);
+            }
+        
+        }
+    };
+}
+
+.footer {
+    margin-top: 160px;
+    .footer-cont {
+        
+        .nav {
+            position: relative;
+            opacity: 1;
+            transition: opacity .2s linear;
+            z-index: 99999;
+            .nav-cont {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                height: 75px;
+
+                .menu {
+                    display: flex;
+                    gap: 40px;
+                    a {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        color: var(--nav_text);
+                    }
+                }
+
+                .logo {
+                    display: flex;
+                    align-items: center;
+                    height: 50px;
+                    padding: 0 50px;
+                    svg {
+                        width: 50px;
+                        height: 50px;
+                        path {
+                            fill: var(--primary)
+                        }
+                    }
+                    .logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-top: 8px;
+                        height: 100%;
+                        p {
+                            font-family: "Fjalla One", sans-serif;
+                            font-weight: 400;
+                            font-size: 24px;
+                            color: var(--primary);
+                            text-transform: uppercase;
+                        }
+                        p:first-child {
+                            line-height: 10px;
+                            font-size: 12px;
+                            text-transform: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        hr {margin-top: 40px;}
+        .foot {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 32px 0 55px;
+            h5 {
+                color: var(--footer);
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                span {
+                    color: var(--nav_text);
+                }
+            }
+            p {
+                display: flex;
+                gap: 24px;
+                i {
+                    width: 36px;
+                    height: 36px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: var(--footer_icon);
+                    border-radius: 50%;
+                }
+            }
+        }
+    };
+}
