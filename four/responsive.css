@@ -33,7 +33,7 @@
     .hero {   
         .nav {
             .nav-cont {
-
+                justify-content: space-between;
                 .menu {
                     position: absolute;
                     display: none;
@@ -47,39 +47,41 @@
                     padding-top: 40px;
                     width: calc(100% - 48px);
                     z-index: 99;
-                        gap: 0;
+                    gap: 0;
                     a {
                         border-bottom: 1px solid var(--text_secondary);
                         width: 100%;
                         text-align: center;
                         padding: 10px 0;
+                        color: var(--nav_text);
                     }
-                    .mobile-menu-btn {
-                        display: block;
-                        margin: 20px 0;
-                        button {
-                            font-size: 12px;
-                            line-height: 20px;
-                            padding: 8px 20px;
-                            border-radius: 12px;
-                            display: flex;
-                            gap: 4px;
-                            align-items: center;
-                        }
-                    }
+                    height: 175px;
+                    overflow: hidden;
+                }
+                .menu.active.menu-right {
+                    margin-top: 175px;
+                    height: fit-content;
+                    padding-top: 0px;
+                }
+                .logo {
+                    justify-content: flex-start;
+                    padding: 0;
                 }
                 .nav-right {
+                    display: flex;
+                    justify-content: flex-end;
+                    position: relative;
+                    right: 0;
+                    gap: 24px;
                     .hamburger {
                         display: flex;
+                        position: relative;
+                        z-index: 999;
                         svg {
                             width: 24px;
                             height: 24px;
                             transform: rotateY(180deg);
                         }
-                    }
-                    .hamburger.active {
-                        position: relative;
-                        z-index: 999;
                     }
                 }
             }
