@@ -60,11 +60,13 @@ button {
     font-weight: 600;
     border: 1px solid var(--border_color);
     background: none;
+    color: var(--grey_800);
 }
 
-.filled-btn button {
+.filled-btn {
     border-color: var(--btn-filled-border);
     background: var(--primary);
+    color: var(--white_100);
 }
 
 .container {
@@ -318,6 +320,8 @@ button {
         display: flex;
         flex-direction: column;
         text-align: center;
+        overflow: scroll;
+        width: 100%;
         h1 {
             margin-bottom: 16px;
         }
@@ -328,16 +332,30 @@ button {
             justify-content: center;
             button {
                 width: calc(100% / 6);
-            };
+                border-color: transparent;
+                cursor: pointer;
+            }
+            .active-class {
+                border-color: var(--primary);
+                color: var(--primary);
+            }
         }
         .class-cont {
+            width: 100%;
+            overflow: hidden;
+        }
+        .class-contents {
+            display: flex;
+            width: 500%;
+            margin-left: -100%;
+            transition: all 1s linear;
             .class {
-                width: 100%;
+                width: 20%;
                 display: flex;
                 justify-content: space-between;
                 .left{
                     width: 50%;
-                    border: 36px;
+                    border-radius: 36px;
                     max-height: 636px;
                     overflow: hidden;
                     img {
@@ -348,16 +366,42 @@ button {
                     width: 440px;
                     display: flex;
                     flex-direction: column;
+                    align-items: flex-start;
                     justify-content: center;
-                    align-items: center;
-                    svg {
-                        width: 100px;
-                    }
-                    h3 {
-                        margin-top: 16px;
-                    }
+                    margin-right: 20px;
                     p {
-                        margin-top: 16px;
+                        margin: 24px 0 40px;
+                        text-align: left;
+                    }
+                    .right-grid {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 48px;
+                        .grid {
+                            display: grid;
+                            align-items: flex-start;
+                            svg {
+                                width: 32px;
+                                height: 32px;
+                                path {
+                                    fill: var(--primary)
+                                };
+                            }
+                            h6{
+                                font-size: 16px;
+                                line-height:22.4px;
+                                margin: 12px 0 8px;
+                                text-align: left;
+                            }
+                            p {
+                                margin: 0;
+                                font-size: 14px;
+                                line-height: 21px;
+                            }
+                        }
+                    }
+                    button {
+                        margin-top: 56px;
                     }
                 }
             }

@@ -18,6 +18,46 @@ document.querySelector('.hamburger').addEventListener('click', () => {
     document.querySelector('.hamburger').classList.toggle('active')
 })
 
+const selectClass = (index) => {
+
+    document.querySelectorAll('.class-btn').forEach((cta, i) => {
+        if(i === index){
+            cta.classList.add('active-class')
+        } else {
+            cta.classList.remove('active-class')
+        }
+    })
+
+    const classes = document.querySelector('.class-contents')
+    
+    switch(index) {
+        case 0: 
+            classes.style.marginLeft = '0%'
+        break;
+
+        case 1: 
+            classes.style.marginLeft = '-100%'
+        break;
+
+        case 2: 
+            classes.style.marginLeft = '-200%'
+        break;
+        
+        case 3: 
+            classes.style.marginLeft = '-300%'
+        break;
+        
+        case 4: 
+            classes.style.marginLeft = '-400%'
+        break;
+        
+        default: 
+        classes.style.marginLeft = '-100%'
+        break;
+
+    }
+}
+
 
 //register scrollTrigger 
 gsap.registerPlugin(ScrollTrigger)
