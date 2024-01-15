@@ -11,6 +11,7 @@ a {
 body {
   font-family: "Karla", sans-serif;
   font-style: normal;
+  color: var(--text_primary)
 }
 
 p {
@@ -21,6 +22,10 @@ p {
 
 .caption {
     font-weight: 600;
+}
+
+.xl {
+    font-size: 20px; font-weight: 400; line-height: 30px;
 }
 
 h1 {
@@ -67,8 +72,11 @@ button {
 
 .hero {
     background-image: url('../assets/four/yoga/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg');
+    background-origin: content-box;
+    background-size: cover;
     width: min(100vw, 1550px);
     height: min(100vh, 928px);
+
     .nav {
         position: fixed;
         width: 100vw;
@@ -212,6 +220,48 @@ button {
                         border-radius: 50%;
                     }
                 }
+            }
+        }
+    }
+
+    .hero-cont {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: center;
+
+        h1 {
+            font-size: 80px;
+            line-height: 104px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+            color: var(--white_100);
+        }
+        p {
+            max-width: 504px;
+            color: var(--white_60);
+        }
+        .hero-cta {
+            display: flex;
+            gap: 16px;
+            margin-top: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            i {
+                color: var(--white_100);
+                padding: 16px;
+                width: 48px;;
+                height: 48px;;
+                background: var(--primary);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            p {
+                color: var(--white_80);
             }
         }
     }
