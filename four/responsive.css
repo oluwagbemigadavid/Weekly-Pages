@@ -105,6 +105,7 @@
     }
     
     .about {
+        margin-top: 120px;
         overflow: unset;
         .about-text {
             flex-direction: column;
@@ -123,6 +124,7 @@
     }
 
     .classes {
+        margin-top: 120px;
         .classes-cont {
             padding: 0 24px;
             .class-row {
@@ -181,6 +183,18 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .trainers {
+        margin-top: 120px;
+        .trainers-cont .trainers-row {
+            .train {
+                flex-basis: 48%;
+                .img-cont {
+                    height: 200px
+                };
             }
         }
     }

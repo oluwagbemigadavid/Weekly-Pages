@@ -123,17 +123,12 @@ trainers.forEach( ((bro, i) => {
     imgCont.appendChild(img)
 
     const train = document.createElement('div')
-    train.classList.add('train')
+    train.classList.add('train', `train-${i}`)
 
     train.appendChild(imgCont)
     train.appendChild(h5)
     train.appendChild(p)
-
-    if(i % 2 === 0) {
-        trainRow1.appendChild(train)
-    } else {
-        trainRow2.appendChild(train)
-    }
+    trainRow1.appendChild(train)
 
 }))
 

@@ -276,7 +276,7 @@ button {
 .about {
     margin-top: 160px;
     width: 100vw;
-    overflow: scroll;
+    overflow: hidden;
 
     .about-text {
         display: flex;
@@ -439,15 +439,25 @@ button {
         }
         .trainers-row {
             display: flex;
-            gap: 24px;
+            flex-wrap: wrap;
+            justify-content: space-between;
             .train {
-                width: 100%;
+                flex: 0 0 306px;
+                margin-bottom: 32px;
                 .img-cont {
                     width: 100%;
+                    height: 306px;
+                    overflow: hidden;
+                    border-radius: 36px;
                     img {
                         width: 100%;
+                        height: 100%;
                         object-fit: cover;
                     }
+                }
+                text-align: center;
+                h5 {
+                    margin: 16px 0 4px;
                 }
             }
         }
