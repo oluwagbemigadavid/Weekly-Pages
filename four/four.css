@@ -58,8 +58,8 @@ button {
     font-size: 14px;
     line-height: 24px;
     font-weight: 600;
-    border: 1px solid var(--btn-border);
-    background-color: none;
+    border: 1px solid var(--border_color);
+    background: none;
 }
 
 .filled-btn button {
@@ -314,10 +314,53 @@ button {
 
 .classes {
     margin-top: 120px;
-    width: 100vw;
     .classes-cont {
         display: flex;
         flex-direction: column;
-        align-content: center;
-    };
+        text-align: center;
+        h1 {
+            margin-bottom: 16px;
+        }
+        .class-row {
+            margin: 40px 0;
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            button {
+                width: calc(100% / 6);
+            };
+        }
+        .class-cont {
+            .class {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .left{
+                    width: 50%;
+                    border: 36px;
+                    max-height: 636px;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .right {
+                    width: 440px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    svg {
+                        width: 100px;
+                    }
+                    h3 {
+                        margin-top: 16px;
+                    }
+                    p {
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
 }
