@@ -66,6 +66,9 @@ button {
 }
 
 .hero {
+    background-image: url('../assets/four/yoga/eneko-urunuela-I2YSmEUAgDY-unsplash.jpg');
+    width: min(100vw, 1550px);
+    height: min(100vh, 928px);
     .nav {
         position: fixed;
         width: 100vw;
@@ -77,11 +80,24 @@ button {
             align-items: center;
             justify-content: center;
             position: relative;
+            height: 75px;
+
+            .menu {
+                display: flex;
+                gap: 40px;
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    color: var(--white_100);
+                }
+            }
 
             .logo {
                 display: flex;
                 align-items: center;
                 height: 50px;
+                padding: 0 50px;
                 svg {
                     width: 50px;
                     height: 50px;
@@ -92,24 +108,27 @@ button {
                 .logo-text {
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-around;
+                    justify-content: center;
+                    margin-top: 8px;
                     height: 100%;
                     p {
                         font-family: "Fjalla One", sans-serif;
                         font-weight: 400;
                         font-size: 24px;
                         color: var(--primary);
+                        text-transform: uppercase;
                     }
                     p:first-child {
+                        line-height: 10px;
                         font-size: 12px;
-                        line-height: 0px;
+                        text-transform: none;
                     }
                 }
             }
 
             .nav-right {
                 position: absolute;
-                right: 0;
+                right: 120px;
 
                 .hamburger {
                     display: none;
