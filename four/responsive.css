@@ -231,6 +231,36 @@
         }
 
     }
+
+    .pricing {
+        margin-top: 120px;
+        .pricing-cont {
+            flex-direction: column;
+            .pricing-left, .pricing-right {
+                width: 100%;
+            }
+            .pricing-left {
+                text-align: center;
+                display: grid;
+                justify-content: center;
+                .pricing-list {
+                    p {
+                        justify-content: center
+                    }
+                }
+            }
+            .pricing-right .price-cat {
+                padding: 20px;
+                .price-cat-left{
+                    width: 55%;
+                }
+                .price-cat-right {
+                    width: 45%;
+                    gap: 16px;
+                }
+            }
+        }
+    }
    }
 
    @media only screen and (min-width: 1550px) {
