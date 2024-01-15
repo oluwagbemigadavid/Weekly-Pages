@@ -276,7 +276,7 @@ button {
 .about {
     margin-top: 160px;
     overflow: hidden;
-
+    height: 600px;
     .about-text {
         display: flex;
         justify-content: space-between;

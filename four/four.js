@@ -196,3 +196,45 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+const aboutCards = [...document.querySelectorAll('.about-card')]
+const classes = [...document.querySelectorAll('.class-bg')]
+aboutCards.forEach((card, i) => {
+    gsap.fromTo(card, {
+        x: 500,
+        y: 100,
+        opacity: 0.5,
+        stagger: 3
+    }, {
+        scrollTrigger: {
+            trigger: card,
+            start: 'top 90%',
+            end: 'top 20%',
+            scrub: true,
+        },
+        x: -700,
+        y: -50,
+        opacity: 1,
+    });
+});
+
+
+classes.forEach((clas, i) => {
+    gsap.fromTo(clas.img, {
+        scrollTrigger: {
+            trigger: clas.img,
+            start: 'top 90%',
+            end: 'top 20%',
+            scrub: true,
+        },
+        opacity: .3,
+        scale: 3,
+        y: 100,
+        
+    }, {
+        opacity: 1,
+        scale: 1,
+        y: -100,
+        
+    })
+})
