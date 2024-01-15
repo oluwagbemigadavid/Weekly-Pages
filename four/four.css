@@ -266,3 +266,48 @@ button {
         }
     }
 }
+
+.about {
+    margin-top: 120px;
+    width: 100vw;
+    overflow: scroll;
+    .about-cont {
+        margin-left: 120px;
+        display: flex;
+        gap: 24px;
+        width: fit-content;
+        overflow: scroll;
+        .about-card {
+            width: 306px;
+            height: 348px;
+            overflow: hidden;
+            border-radius: 36px;
+            padding: 64px 40px;
+            background: var(--figures_cont_bg);
+            display: grid;
+            justify-items: center;
+            img {
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+            svg {
+                width: 40px;
+                height: 40px;
+                path {
+                    fill: var(--primary)
+                }
+            }
+            h3 {
+                margin: 24px 0 16px;
+            }
+            p {
+                text-align: center;
+            }
+
+        }
+        .about-card:first-child {
+            padding: 0;
+        }
+    }
+}
