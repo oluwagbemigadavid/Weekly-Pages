@@ -274,9 +274,21 @@ button {
 }
 
 .about {
-    margin-top: 120px;
+    margin-top: 160px;
     width: 100vw;
     overflow: scroll;
+
+    .about-text {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        h1 {
+            max-width: 440px
+        }
+        p {
+            max-width: 416px;
+        }
+    }
     .about-cont {
         margin-left: 120px;
         display: flex;
@@ -318,7 +330,7 @@ button {
 }
 
 .classes {
-    margin-top: 120px;
+    margin-top: 160px;
     .classes-cont {
         display: flex;
         flex-direction: column;
@@ -366,6 +378,8 @@ button {
                     overflow: hidden;
                     img {
                         width: 100%;
+                        object-fit: cover;
+                        margin-bottom: auto;
                     }
                 }
                 .right {
@@ -414,4 +428,28 @@ button {
             }
         }
     }
+}
+
+.trainers {
+    margin-top:160px;
+    .trainers-cont {
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .trainers-row {
+            display: flex;
+            gap: 24px;
+            .train {
+                width: 100%;
+                .img-cont {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    };
 }

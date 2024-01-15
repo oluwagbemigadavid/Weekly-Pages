@@ -58,6 +58,85 @@ const selectClass = (index) => {
     }
 }
 
+const trainers = [
+    {
+        src: '../assets/four/instructor/benjamin-child-rOn57CBgyMo-unsplash.jpg',
+        name: 'Alisa Black',
+        tag: 'Fly-yoga trainer'
+    },
+    {
+        src: '../assets/four/instructor/brian-lawson-6pVaNHbH4fU-unsplash.jpg',
+        name: 'Michelle Yang',
+        tag: 'Fly-yoga and relax trainer'
+    },
+    {
+        src: '../assets/four/instructor/dollar-gill-QoW2Sdlh9Nk-unsplash.jpg',
+        name: 'Robert Fox',
+        tag: 'Stretching trainer'
+    },
+    {
+        src: '../assets/four/instructor/indian-yogi-yogi-madhav-8Nt8AR38T0I-unsplash.jpg',
+        name: 'Sapa London',
+        tag: 'Fly-yoga trainer'
+    },
+    {
+        src: '../assets/four/instructor/isabell-winter-lzYZEDJ8fbo-unsplash.jpg',
+        name: 'Hiatus Mark',
+        tag: 'Fly-yoga and relax trainer'
+    },
+    {
+        src: '../assets/four/instructor/le-minh-phuong-niH7Z81S44g-unsplash.jpg',
+        name: 'Sandra Bliss',
+        tag: 'Women pratices'
+    },
+    {
+        src: '../assets/four/instructor/madison-lavern-4gcqRf3-f2I-unsplash.jpg',
+        name: 'Luke Skye',
+        tag: 'Pregnant yoga trainer'
+    },
+    {
+        src: '../assets/four/instructor/mediamodifier-EXtnZW9NbqM-unsplash.jpg',
+        name: 'Lord Vain',
+        tag: 'Stretching trainer, helathy back'
+    },
+]
+const train = document.querySelector('.trainers-cont')
+const trainRow1 =  document.createElement('div')
+const trainRow2 =  document.createElement('div')
+trainRow1.classList.add('trainers-row','row1')
+trainRow2.classList.add('trainers-row','row2')
+train.appendChild(trainRow1)
+train.appendChild(trainRow2)
+trainers.forEach( ((bro, i) => {
+
+    const imgCont = document.createElement('div')
+    imgCont.classList.add('img-cont')
+    const img = document.createElement('img')
+    img.src = bro.src
+
+    const h5 = document.createElement('h5')
+    h5.textContent = bro.name
+    
+    const p = document.createElement('p')
+    p.textContent = bro.tag
+
+    imgCont.appendChild(img)
+
+    const train = document.createElement('div')
+    train.classList.add('train')
+
+    train.appendChild(imgCont)
+    train.appendChild(h5)
+    train.appendChild(p)
+
+    if(i % 2 === 0) {
+        trainRow1.appendChild(train)
+    } else {
+        trainRow2.appendChild(train)
+    }
+
+}))
+
 
 //register scrollTrigger 
 gsap.registerPlugin(ScrollTrigger)
