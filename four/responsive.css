@@ -103,6 +103,16 @@
        }
 
     }
+    
+    .about {
+        overflow: unset;
+        .about-cont {
+            margin: unset;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
    }
 
    @media only screen and (min-width: 1440px) {

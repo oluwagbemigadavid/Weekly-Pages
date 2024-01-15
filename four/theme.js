@@ -32,36 +32,3 @@ function changeTheme() {
         document.body.style.setProperty('--lines', 'unset');
     }
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-    const linesGrid = document.getElementById("linesGrid");
-
-    const horizontalLineGap = 72;
-    const verticalLineGap = 72;
-
-    // Add horizontal lines
-    for (let i = 0; i <= linesGrid.clientHeight; i += horizontalLineGap) {
-        createLine('horizontal', i);
-    }
-
-    // Add vertical lines
-    for (let i = 0; i <= linesGrid.clientWidth; i += verticalLineGap) {
-        createLine('vertical', i);
-    }
-
-    function createLine(orientation, position) {
-        const line = document.createElement("div");
-        line.className = `line ${orientation}`;
-        linesGrid.appendChild(line);
-
-        if (orientation === 'horizontal') {
-            line.style.width = "100%";
-            line.style.height = "1px";
-            line.style.top = `${position}px`;
-        } else {
-            line.style.width = "1px";
-            line.style.height = "100%";
-            line.style.left = `${position}px`;
-        }
-    }
-});

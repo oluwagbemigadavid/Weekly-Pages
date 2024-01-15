@@ -276,7 +276,6 @@ button {
         display: flex;
         gap: 24px;
         width: fit-content;
-        overflow: scroll;
         .about-card {
             width: 306px;
             height: 348px;
