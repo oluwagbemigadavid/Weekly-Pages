@@ -12,6 +12,7 @@ body {
   font-family: "Karla", sans-serif;
   font-style: normal;
   color: var(--text_primary);
+  background: var(--bg);
 
 }
 
