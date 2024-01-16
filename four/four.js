@@ -5,8 +5,10 @@ window.addEventListener('scroll', () => {
     const currentScrollY = window.scrollY
     if(currentScrollY > lastScrollY) {
         nav.style.opacity =  0
+        nav.style.pointerEvents =  'none'
     } else {
         nav.style.opacity = 1
+        nav.style.pointerEvents =  'all'
     }
     document.querySelectorAll('.menu').forEach(menu => menu.classList.remove('active'))
     lastScrollY = currentScrollY
@@ -104,9 +106,10 @@ const train = document.querySelector('.trainers-cont')
 const trainRow1 =  document.createElement('div')
 const trainRow2 =  document.createElement('div')
 trainRow1.classList.add('trainers-row','row1')
-trainRow2.classList.add('trainers-row','row2')
 train.appendChild(trainRow1)
 train.appendChild(trainRow2)
+let trainEl = []
+
 trainers.forEach( ((bro, i) => {
 
     const imgCont = document.createElement('div')
@@ -131,6 +134,21 @@ trainers.forEach( ((bro, i) => {
     trainRow1.appendChild(train)
 
 }))
+
+const Atrain = document.querySelectorAll('.train')
+
+gsap.from(Atrain, {
+    scrollTrigger: {
+        trigger: '.train',
+        start: 'top 80%',
+        end: 'top 0%',
+        scrub: true,
+    },
+    opacity: 0,
+    stagger: 0.1,
+    x: 100,
+    y: 100
+})
 
 const yoga = [
     '../assets/four/yoga/conscious-design-r6Oz7d4wl3o-unsplash.jpg',
@@ -168,6 +186,7 @@ function generateRandomValues() {
 
 
 const renderYoga = document.querySelector('.more-img');
+
 yoga.forEach((yoga, i) => {
     const cont = document.createElement('div');
     const img = document.createElement('img');
@@ -176,13 +195,27 @@ yoga.forEach((yoga, i) => {
     } else {
         if( i === 1) cont.classList.add('insta');
     }
-    cont.classList.add('img-cont')
+    cont.classList.add('img-cont', 'yoga-img')
     cont.style.width = values[i] + '%';
     img.style.width = '100%'
     img.src = yoga;
     cont.appendChild(img);
     renderYoga.appendChild(cont);
 })
+
+const yogaCont = document.querySelectorAll('.yoga-img')
+
+yogaCont.forEach((element) => {
+    gsap.to(element, {
+        scrollTrigger: {
+            trigger: element,
+            start: 'top 70%',
+            end: 'top 30%',
+            scrub: true,
+        },
+        width: Math.floor(Math.random() * (75 - 15 + 1)) + 15 + '%',
+    });
+});
 
 
 //register scrollTrigger 
@@ -197,44 +230,52 @@ function raf(time) {
 
 requestAnimationFrame(raf);
 
-const aboutCards = [...document.querySelectorAll('.about-card')]
-const classes = [...document.querySelectorAll('.class-bg')]
-aboutCards.forEach((card, i) => {
-    gsap.fromTo(card, {
+const aboutCards = document.querySelectorAll('.about-card')
+
+if (window.innerWidth > 700 ) {
+
+    gsap.fromTo(aboutCards, {
+        scrollTrigger: {
+            trigger: '.about-card',
+            start: 'top 90%',
+            end: 'top 20%',
+            scrub: true,
+        },
         x: 500,
         y: 100,
-        opacity: 0.5,
-        stagger: 3
+        scale: 0.8,
     }, {
         scrollTrigger: {
-            trigger: card,
+            trigger: '.about-card',
             start: 'top 90%',
             end: 'top 20%',
             scrub: true,
         },
-        x: -700,
+        x: -900,
         y: -50,
-        opacity: 1,
-    });
-});
-
-
-classes.forEach((clas, i) => {
-    gsap.fromTo(clas.img, {
-        scrollTrigger: {
-            trigger: clas.img,
-            start: 'top 90%',
-            end: 'top 20%',
-            scrub: true,
-        },
-        opacity: .3,
-        scale: 3,
-        y: 100,
-        
-    }, {
-        opacity: 1,
         scale: 1,
-        y: -100,
-        
-    })
+    });
+}
+
+
+const classes = [...document.querySelectorAll('.class-bg')]
+let imgElement = []
+classes.forEach((clas, i) => {
+     imgElement.push(clas.querySelector('img'));
+})
+
+gsap.fromTo(imgElement, {
+    opacity: 0.3,
+    scale: 3,
+    y: 100,
+},{
+    scrollTrigger: {
+        trigger: '.class-bg',
+        start: 'top 90%',
+        end: 'top 0%',
+        scrub: true,
+    },
+    opacity: 1,
+    scale: 1,
+    y: -50,
 })

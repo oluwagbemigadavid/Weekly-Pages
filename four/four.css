@@ -335,7 +335,6 @@ button {
         flex-direction: column;
         text-align: center;
         overflow: hidden;
-        width: 100%;
         h1 {
             margin-bottom: 16px;
         }
@@ -424,6 +423,11 @@ button {
                         margin-top: 56px;
                     }
                 }
+            }
+            .coming-soon {
+                display: flex;
+                align-items: center;;
+                justify-content: center;;
             }
         }
     }
