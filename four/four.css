@@ -469,6 +469,37 @@ button {
     };
 }
 
+.schedule {
+    margin-top: 160px;
+    .schedule-cont {
+        .header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            .buttons {
+                display: flex;
+                align-items: flex-start;
+                gap: 16px;
+                justify-content: flex-end;
+            }
+        }
+        .calandar {
+            margin-top: 40px;
+            background: var(--figures_cont_bg);
+            padding: 40px;
+            .calandar-cont {
+                .calandar-header {
+                    
+                }
+                .calandar-cont {
+
+                }
+            }
+
+        }
+    };
+}
+
 .banner {
     margin-top: 160px;
     .banner-cont {

@@ -279,3 +279,184 @@ gsap.fromTo(imgElement, {
     scale: 1,
     y: -50,
 })
+
+
+const schedule = [
+    {
+        id: 'title',
+        elements: [
+            {
+                title: 'Day/Time'
+            },
+            {
+                title: 'Mon.',
+                body: '03.01'
+            },
+            {
+                title: 'Tue.',
+                body: '03.02'
+            },
+            {
+                title: 'Wed.',
+                body: '03.03'
+            },
+            {
+                title: 'Thus.',
+                body: '03.04'
+            },
+            {
+                title: 'Fri.',
+                body: '03.05'
+            },
+            {
+                title: 'Sat.',
+                body: '03.06'
+            },
+        ]
+    },
+    {
+        id: 'body',
+        elements: [
+            {
+                row: [
+                    {
+                        Time: '07:30 am',
+                        day: [ 
+                            [
+                                {
+                                    title: 'Stretchings',
+                                    color: 'purple',
+                                    time: '07:30 - 08:50'
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'For pregnant',
+                                    color: 'yellow',
+                                    time: '07:30 - 08:50'
+                                },
+                                {
+                                    title: 'Healthy back',
+                                    color: 'blue',
+                                    time: '07:30 - 08:50'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: '',
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'Fly yoga',
+                                    color: 'green',
+                                    time: '07:30 - 08:50'
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'stretching',
+                                    color: 'purple',
+                                    time: '07:30 - 08:50'
+                                },
+                            ],
+                            /* {
+                                three: [
+                                ],
+                            },
+                            {
+                                four: [
+                                    {
+                                        title: 'Fly yoga',
+                                        color: 'green',
+                                        time: '07:30 - 08:50'
+                                    },
+                                ],
+                            },
+                            {
+                                five: [
+                                ],
+                            },
+                            {
+                                six: [
+                                    {
+                                        title: 'stretching',
+                                        color: 'purple',
+                                        time: '07:30 - 08:50'
+                                    },
+                                ],
+                            }, */
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+const renderCalandar = document.querySelector('.calandar-cont')
+
+schedule.forEach((row, i) => {
+    const roww = document.createElement('div')
+    roww.classList.add('calandar-row')
+    if (row.id === 'title') {
+        roww.classList.add('calandar-header')
+        row.elements.forEach((elem, i) => {
+            const roow = document.createElement('div')
+            const title = document.createElement('p')
+            const body = document.createElement('p')
+            roow.classList.add('element')
+            title.classList.add('element-title')
+            body.classList.add('element-body', 'elem-h1')
+
+            title.textContent = elem?.title
+            body.textContent = elem?.body
+            roow.appendChild(title)
+            roow.appendChild(body)
+            roww.appendChild(roow)
+        })
+    } else {
+        row.elements.forEach((elem, i) => {
+
+            elem.row.forEach((item) => {
+                const roow = document.createElement('div')
+                roow.classList.add('element')
+                const title = document.createElement('p')
+                title.classList.add('element-title')
+                const ite = document.createElement('div')
+                ite.classList.add('calandar-item')
+                ite.classList.add(item.Time ? 'calandar-time' : '')
+                
+                title.textContent = item.Time
+                
+                ite.appendChild(title)
+                roow.appendChild(ite)
+
+                roww.appendChild(roow)
+
+                item.day.forEach((prog, i) => {
+                    for (let i = 0; i < prog.length; i++) {
+                        const ite2 = document.createElement('div')
+                        ite2.classList.add(prog[i]?.color && `calandar-${prog[i]?.color}`)
+                        const pT = document.createElement('h5')
+                        const pB = document.createElement('p')
+                        pT.textContent = prog[i]?.title
+                        pB.textContent = prog[i]?.time
+                        ite2.appendChild(pT)
+                        ite2.appendChild(pB)
+                        roow.appendChild(ite2)
+                    }
+
+                    roww.appendChild(roow)
+                })
+
+            })
+        })
+    }
+    renderCalandar.appendChild(roww)
+})
