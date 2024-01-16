@@ -392,7 +392,81 @@ const schedule = [
                                 ],
                             }, */
                         ]
-                    }
+                    },
+                    {
+                        Time: '07:30 am',
+                        day: [ 
+                            [
+                                {
+                                    title: 'Stretchings',
+                                    color: 'purple',
+                                    time: '07:30 - 08:50'
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'For pregnant',
+                                    color: 'yellow',
+                                    time: '07:30 - 08:50'
+                                },
+                                {
+                                    title: 'Healthy back',
+                                    color: 'blue',
+                                    time: '07:30 - 08:50'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: '',
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'Fly yoga',
+                                    color: 'green',
+                                    time: '07:30 - 08:50'
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'stretching',
+                                    color: 'purple',
+                                    time: '07:30 - 08:50'
+                                },
+                            ],
+                            /* {
+                                three: [
+                                ],
+                            },
+                            {
+                                four: [
+                                    {
+                                        title: 'Fly yoga',
+                                        color: 'green',
+                                        time: '07:30 - 08:50'
+                                    },
+                                ],
+                            },
+                            {
+                                five: [
+                                ],
+                            },
+                            {
+                                six: [
+                                    {
+                                        title: 'stretching',
+                                        color: 'purple',
+                                        time: '07:30 - 08:50'
+                                    },
+                                ],
+                            }, */
+                        ]
+                    },
                 ]
             }
         ]
@@ -403,7 +477,6 @@ const renderCalandar = document.querySelector('.calandar-cont')
 
 schedule.forEach((row, i) => {
     const roww = document.createElement('div')
-    roww.classList.add('calandar-row')
     if (row.id === 'title') {
         roww.classList.add('calandar-header')
         row.elements.forEach((elem, i) => {
@@ -421,11 +494,12 @@ schedule.forEach((row, i) => {
             roww.appendChild(roow)
         })
     } else {
+        roww.classList.add('calandar-contents')
         row.elements.forEach((elem, i) => {
 
             elem.row.forEach((item) => {
                 const roow = document.createElement('div')
-                roow.classList.add('element')
+                roow.classList.add('calandar-row')
                 const title = document.createElement('p')
                 title.classList.add('element-title')
                 const ite = document.createElement('div')
@@ -442,6 +516,7 @@ schedule.forEach((row, i) => {
                 item.day.forEach((prog, i) => {
                     for (let i = 0; i < prog.length; i++) {
                         const ite2 = document.createElement('div')
+                        ite2.classList.add('calandar-item')
                         ite2.classList.add(prog[i]?.color && `calandar-${prog[i]?.color}`)
                         const pT = document.createElement('h5')
                         const pB = document.createElement('p')
