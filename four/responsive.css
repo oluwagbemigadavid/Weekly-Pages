@@ -221,6 +221,26 @@
         }
     }
     
+    .schedule {
+        margin-top: 120px;
+        .schedule-cont {
+            .header {
+                flex-direction: column;
+                gap: 24px;
+            }
+            .calandar {
+                width: 100%;
+                overflow-x: scroll;
+                .calandar-cont {
+                    width: fit-content;         
+                }
+                .calandar-header, .calandar-row{
+                    width: fit-content;     
+                    gap: 24px;
+                }
+            }
+        }
+    }
     .banner {
         margin-top: 120px;
         .banner-cont {

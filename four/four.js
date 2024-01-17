@@ -318,7 +318,7 @@ const schedule = [
         id: 'body',
         elements: [
             {
-                row: [
+                row: [  
                     {
                         Time: '07:30 am',
                         day: [ 
@@ -349,7 +349,7 @@ const schedule = [
                             [
                                 {
                                     title: 'Fly yoga',
-                                    color: 'green',
+                                    color: 'dg',
                                     time: '07:30 - 08:50'
                                 },
                             ],
@@ -365,106 +365,284 @@ const schedule = [
                                     time: '07:30 - 08:50'
                                 },
                             ],
-                            /* {
-                                three: [
-                                ],
-                            },
-                            {
-                                four: [
-                                    {
-                                        title: 'Fly yoga',
-                                        color: 'green',
-                                        time: '07:30 - 08:50'
-                                    },
-                                ],
-                            },
-                            {
-                                five: [
-                                ],
-                            },
-                            {
-                                six: [
-                                    {
-                                        title: 'stretching',
-                                        color: 'purple',
-                                        time: '07:30 - 08:50'
-                                    },
-                                ],
-                            }, */
                         ]
                     },
                     {
-                        Time: '07:30 am',
+                        Time: '09:30 am',
                         day: [ 
                             [
                                 {
-                                    title: 'Stretchings',
+                                    title: 'Beginners',
+                                    color: 'lg',
+                                    time: '09:30 - 11:50'
+                                },
+                                {
+                                    title: 'Relax yoga',
+                                    color: 'red',
+                                    time: '09:30 - 11:50'
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'Stretching',
+                                    color: 'red',
+                                    time: '09:30 - 11:50'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'Relax yoga',
+                                    color: 'red',
+                                    time: '09:30 - 11:50'
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'Stretching',
                                     color: 'purple',
                                     time: '07:30 - 08:50'
                                 },
                             ],
                             [
                                 {
-                                    title: 'For pregnant',
-                                    color: 'yellow',
-                                    time: '07:30 - 08:50'
+                                    title: '',
                                 },
+                            ],
+                        ]
+                    },
+                    {
+                        Time: '13:00 pm',
+                        day: [ 
+                            [
+                                {
+                                    title: 'Fly yoga',
+                                    color: 'dg',
+                                    time: '13:00 - 14:00'
+                                },
+                            ],
+                            [
+                                {
+                                    title: ''
+                                },
+                            ], 
+                            [
                                 {
                                     title: 'Healthy back',
                                     color: 'blue',
-                                    time: '07:30 - 08:50'
+                                    time: '13:00 - 14:00'
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'Beginners',
+                                    color: 'lg',
+                                    time: '13:00 - 14:00'
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
+                                },
+                            ], 
+                        ]
+                    },
+                    {
+                        Time: '14:00 pm',
+                        day: [ 
+                            [
+                                {
+                                    title: 'null',
+                                    color: 'null',
+                                    time: 'null',
+                                },
+                                {
+                                    title: 'For pregnant',
+                                    color: 'yellow',
+                                    time: '14:00 - 15:20'
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'Stretching',
+                                    color: 'purple',
+                                    time: '14:00 - 15:20'
+                                },
+                                {
+                                    title: 'Beginners',
+                                    color: 'lg',
+                                    time: '14:00 - 15:20'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'null',
+                                    color: 'null',
+                                    time: 'null',
+                                },
+                                {
+                                    title: 'Stretching',
+                                    color: 'purple',
+                                    time: '14:00 - 15:20'
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'Healthy back',
+                                    color: 'blue',
+                                    time: '14:00 - 15:20'
+                                },
+                                {
+                                    title: '',
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
+                                },
+                            ],
+                            [
+                                {
+                                    title: 'null',
+                                    color: 'null',
+                                    time: 'null',
+                                },
+                                {
+                                    title: 'Relax yoga',
+                                    color: 'red',
+                                    time: '14:00 - 15:20'
+                                },
+                            ],
+                        ]
+                    },
+                    {
+                        Time: '15:30 pm',
+                        day: [ 
+                            [
+                                {
+                                    title: ''
+                                },
+                            ], 
+                            [
+                                {
+                                    title: ''
+                                },
+                            ], 
+                            [
+                                {
+                                    title: ''
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'For pregnant',
+                                    color: 'yellow',
+                                    time: '15:30 - 17:00'
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'FLy yoga',
+                                    color: 'dg',
+                                    time: '15:30 - 17:00'
+                                },
+                            ], 
+                        ]
+                    },
+                    {
+                        Time: '17:00 pm',
+                        day: [ 
+                            [
+                                {
+                                    title: 'Relax yoga',
+                                    color: 'red',
+                                    time: '17:00 - 18:30'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'Healthy back',
+                                    color: 'blue',
+                                    time: '17:00 - 18:30'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: ''
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'Stretching',
+                                    color: 'lg',
+                                    time: '17:00 - 18:30'
+                                },
+                            ],
+                            [
+                                {
+                                    title: '',
                                 },
                             ], 
                             [
                                 {
                                     title: '',
                                 },
-                            ],
+                            ], 
+                        ]
+                    },
+                    {
+                        Time: '19:00 pm',
+                        day: [ 
+                            [
+                                {
+                                    title: ''
+                                },
+                            ], 
                             [
                                 {
                                     title: 'Fly yoga',
-                                    color: 'green',
-                                    time: '07:30 - 08:50'
+                                    color: 'dg',
+                                    time: '19:00 - 20:30'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'Beginners',
+                                    color: 'lg',
+                                    time: '19:00 - 20:30'
+                                },
+                            ], 
+                            [
+                                {
+                                    title: ''
+                                },
+                            ], 
+                            [
+                                {
+                                    title: 'Relax yoga',
+                                    color: 'red',
+                                    time: '19:00 - 20:30'
                                 },
                             ],
                             [
                                 {
                                     title: '',
                                 },
-                            ],
-                            [
-                                {
-                                    title: 'stretching',
-                                    color: 'purple',
-                                    time: '07:30 - 08:50'
-                                },
-                            ],
-                            /* {
-                                three: [
-                                ],
-                            },
-                            {
-                                four: [
-                                    {
-                                        title: 'Fly yoga',
-                                        color: 'green',
-                                        time: '07:30 - 08:50'
-                                    },
-                                ],
-                            },
-                            {
-                                five: [
-                                ],
-                            },
-                            {
-                                six: [
-                                    {
-                                        title: 'stretching',
-                                        color: 'purple',
-                                        time: '07:30 - 08:50'
-                                    },
-                                ],
-                            }, */
+                            ], 
                         ]
                     },
                 ]
@@ -514,18 +692,24 @@ schedule.forEach((row, i) => {
                 roww.appendChild(roow)
 
                 item.day.forEach((prog, i) => {
+                    const ite2 = document.createElement('div')
+                    ite2.classList.add('calandar-item')
                     for (let i = 0; i < prog.length; i++) {
-                        const ite2 = document.createElement('div')
-                        ite2.classList.add('calandar-item')
-                        ite2.classList.add(prog[i]?.color && `calandar-${prog[i]?.color}`)
+                        const pC = document.createElement('div')
+                        pC.classList.add(prog[i]?.color && `calandar-program`)
+                        pC.classList.add(prog[i]?.color && `calandar-${prog[i]?.color}`)
+                        
+                        const PC = document.createElement('div')
                         const pT = document.createElement('h5')
                         const pB = document.createElement('p')
                         pT.textContent = prog[i]?.title
                         pB.textContent = prog[i]?.time
-                        ite2.appendChild(pT)
-                        ite2.appendChild(pB)
-                        roow.appendChild(ite2)
+                        PC.appendChild(pT)
+                        PC.appendChild(pB)
+                        pC.appendChild(PC)
+                        ite2.appendChild(pC)
                     }
+                    roow.appendChild(ite2)
 
                     roww.appendChild(roow)
                 })
@@ -535,3 +719,20 @@ schedule.forEach((row, i) => {
     }
     renderCalandar.appendChild(roww)
 })
+
+const prog = document.querySelectorAll('.calandar-program')
+
+if (window.innerWidth > 700 ) {
+    gsap.from(prog, {
+        scrollTrigger: {
+            trigger: '.calandar-program',
+            start: 'top 70%',
+            end: 'top 30%',
+            scrub: true,
+        },
+        stagger: 0.1,
+        height: 0,
+        padding: 0,
+        stagger: 0.1,
+    })
+}

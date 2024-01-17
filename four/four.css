@@ -481,18 +481,159 @@ button {
                 align-items: flex-start;
                 gap: 16px;
                 justify-content: flex-end;
+                button:nth-child(2) {
+                    border-color: var(--btn-filled-border);
+                    background: var(--primary);
+                    color: var(--white_100);
+                }
+            }
+        }
+        #free {
+            display: flex;
+            justify-content: center;
+            button {
+                border-color: var(--primary);
+                color: var(--primary);
             }
         }
         .calandar {
-            margin-top: 40px;
+            margin: 40px 0;
             background: var(--figures_cont_bg);
+            border-radius: 36px;
             padding: 40px;
             .calandar-cont {
                 .calandar-header {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                    font-size: 16px;
+                    .element {
+                        display: flex;
+                        justify-content: flex-start;
+                        gap: 8px;
+                        width: 140px;
+                        color: var(--text_primary);
+                        position: relative;
+                        .element-title {     
+                            font-size: 16px;
+                            line-height: 22px;
+                            font-weight: 600;
+                        }
+                        .element-body {
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 400;
+                        }
+                    }
                     
+                    .element:first-child .element-title {
+                        color: var(--text_secondary)
+                    }
+                    .element:first-child::after {
+                        content: '\f104';
+                        font-family: 'Font Awesome 6 Free';
+                        font-weight: 900;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: var(--text_primary);
+                        width: 40px;
+                        height: 40px;
+                        top: calc(50% - 20px);
+                        right: 0;
+                        position: absolute;
+                    }
+                    .element:last-child::after {
+                        content: '\f105';
+                        font-family: 'Font Awesome 6 Free';
+                        font-weight: 900;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: var(--text_primary);
+                        width: 40px;
+                        height: 40px;
+                        top: calc(50% - 20px);
+                        right: 0;
+                        position: absolute;
+                    }
                 }
-                .calandar-cont {
-
+                .calandar-contents {
+                    margin-top: 24px;
+                    .calandar-row {
+                        display: grid;
+                        width: 100%;
+                        position: relative;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                        padding: 8px 0;
+                        .calandar-time {
+                            line-height: 24px;
+                        }
+                        .calandar-item {
+                            gap: 8px;
+                            width: 140px;
+                            display: grid;
+                            gap: 8px;
+                            .calandar-program {
+                                width: 100%;
+                                background: var(--bg);
+                                height: fit-content;
+                                border-radius: 12px;
+                                padding: 8px 0;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                position: relative;
+                                overflow: hidden;
+                                h5 {
+                                    font-size: 14px;
+                                    color: var(--nav_text);
+                                    font-weight: 700;
+                                    line-height: 21px;
+                                }
+                                p {
+                                    font-size: 12px;
+                                }
+                            }
+                            .calandar-yellow::before, .calandar-red::before, .calandar-purple::before, .calandar-blue::before, .calandar-dg::before, .calandar-lg::before  {
+                                content: '';
+                                top: 0;
+                                left: 0;
+                                position: absolute;
+                                width: 12px;
+                                height: 100%;
+                                background: var(--warning);
+                            }
+                            .calandar-red::before  {
+                                background: #ED5050;
+                            }
+                            .calandar-purple::before  {
+                                background: #7950ED;
+                            }
+                            .calandar-blue::before  {
+                                background: #3F7FCA;
+                            }
+                            .calandar-lg::before  {
+                                background: #3FCA90;
+                            }
+                            .calandar-dg::before  {
+                                background: var(--primary);
+                            }
+                            .calandar-null {
+                                pointer-events: none;
+                                opacity: 0;
+                            }
+                        }
+                        
+                    }
+                    .calandar-row::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 1px;
+                        background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D7DDE2FF' stroke-width='8' stroke-dasharray='8%2c 8' stroke-dashoffset='100' stroke-linecap='butt'/%3e%3c/svg%3e");
+                    }
                 }
             }
 
