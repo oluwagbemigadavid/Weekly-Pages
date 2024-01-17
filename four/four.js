@@ -733,6 +733,5 @@ if (window.innerWidth > 700 ) {
         stagger: 0.1,
         height: 0,
         padding: 0,
-        stagger: 0.1,
     })
 }
