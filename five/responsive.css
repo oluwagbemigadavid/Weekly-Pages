@@ -194,8 +194,12 @@
    }
 
    @media only screen and (min-width: 1440px) {
-    .nav, .container, .figures_container, .services_container, .man_container, .test_cont, .cs_cont, .advert_cont, .footer_cont {
+    .nav, .container, .footer_cont {
         max-width: 1550px;
         margin: 0 auto;
+    }
+
+    .nav.container {
+        left: calc(50vw - ( 1550px / 2));
     }
    }

@@ -11,6 +11,7 @@ function changeTheme() {
         document.body.style.setProperty('--border_color', `var(--white_30)`);
         document.body.style.setProperty('--figures_cont_bg', `var(--white_30)`);
         document.body.style.setProperty('--pricing', `var(--white_30)`);
+        document.body.style.setProperty('--footer_icon', `var(--grey_900)`);
     } else if(theme === 'light') {
         document.body.style.setProperty('--bg', 'unset');
         document.body.style.setProperty('--text_primary', 'unset');
@@ -20,5 +21,6 @@ function changeTheme() {
         document.body.style.setProperty('--border_color', 'unset');
         document.body.style.setProperty('--figures_cont_bg', 'unset');
         document.body.style.setProperty('--hero-pricing-card', 'unset');
+        document.body.style.setProperty('--footer_icon', 'unset');
     }
 }
